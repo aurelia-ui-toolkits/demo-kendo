@@ -1,0 +1,38 @@
+{
+  "bundles": {
+    "dist/app-build": {
+      "includes": [
+        "*",
+        "*/**/*",
+        "showdown",
+        "jquery",
+        "*/**/*.html!text",
+        "*/**/*.css!text",
+        "*.html!text",
+        "*.css!text",
+        "css",
+        "text",
+        "font-awesome/css/font-awesome.min.css!text",
+        "aurelia-framework",
+        "aurelia-bootstrapper",
+        "aurelia-fetch-client",
+        "aurelia-router",
+        "aurelia-animator-css",
+        "aurelia-templating-binding",
+        "aurelia-templating-resources",
+        "aurelia-templating-router",
+        "aurelia-loader-default",
+        "aurelia-history-browser",
+        "aurelia-logging-console",
+        "bootstrap",
+        "bootstrap/css/bootstrap.css!text",
+        "aurelia-kendoui-plugin",
+        "aurelia-kendoui-plugin/**/*"
+      ],
+      "options": {
+        "inject": true,
+        "minify": true
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<template>
+    <section>
+        <collapse-panel title="Basic Use" allow-collapse.bind="false">
+            <button au-kendo-button class="k-primary">Primary Button</button>
+            <button au-kendo-button>Button</button>
+        </collapse-panel>
+
+        <collapse-panel title="Code Preview">
+            <div au-kendo-tabstrip>
+                <ul>
+                    <li class="k-state-active">HTML</li>
+                    <li>Code</li>
+                </ul>
+                <div>
+                    <textarea au-markdown>
+```
+<button au-kendo-button class="k-primary">Primary Button</button>
+<button au-kendo-button>Button</button>
+```
+                    </textarea>
+                </div>
+                <div>
+                    <textarea au-markdown>
+```
+export class BasicUse {
+    
+}
+```
+                    </textarea>
+                </div>
+            </div>
+        </collapse-panel>
+    </section>
+</template>
