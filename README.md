@@ -15,3 +15,6 @@
 3. `jspm install`
 
 now you can either run the app with `gulp watch` or deploy by using `gulp deploy`
+
+### How to copy from the sample to this demo repository
+1. copy the entire [aurelia-kendoui-plugin/sample/src](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-plugin/tree/master/sample/src) directory to the [demo-kendo/src](https://github.com/aurelia-ui-toolkits/demo-kendo/tree/master/src) directory
