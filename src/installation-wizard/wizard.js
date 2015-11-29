@@ -1,4 +1,4 @@
-import {inject} from 'aurelia-dependency-injection';
+import {inject} from 'aurelia-framework';
 import {Router} from 'aurelia-router';
 import {WizardConfig} from 'installation-wizard/wizard-config';
 

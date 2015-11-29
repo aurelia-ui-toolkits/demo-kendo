@@ -1,4 +1,4 @@
-import {inject} from 'aurelia-dependency-injection';
+import {inject} from 'aurelia-framework';
 import {WizardConfig} from 'installation-wizard/wizard-config';
 
 @inject(WizardConfig)
