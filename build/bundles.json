@@ -12,7 +12,6 @@
         "*.css!text",
         "css",
         "text",
-        "font-awesome/css/font-awesome.min.css!text",
         "aurelia-framework",
         "aurelia-bootstrapper",
         "aurelia-fetch-client",
@@ -27,7 +26,9 @@
         "bootstrap",
         "bootstrap/css/bootstrap.css!text",
         "aurelia-kendoui-plugin",
-        "aurelia-kendoui-plugin/**/*"
+        "aurelia-kendoui-plugin/**/*",
+        "kendo-ui/styles/kendo.common.core.min.css!text",
+        "kendo-ui/styles/kendo.bootstrap.min.css!text"
       ],
       "options": {
         "inject": true,

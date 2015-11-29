@@ -1,8 +1,3 @@
-import 'bootstrap';
-import 'bootstrap/css/bootstrap.css!';
-import 'kendo-ui/styles/kendo.common.core.min.css!';
-import 'kendo-ui/styles/kendo.bootstrap.min.css!';
-
 export class App {
     configureRouter(config, router) {
         config.title = 'Kendo UI Samples';
