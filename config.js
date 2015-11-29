@@ -15,6 +15,8 @@ System.config({
   },
   bundles: {
     "app-build": [
+      "about/about",
+      "about/about.html!github:systemjs/plugin-text@0.0.3",
       "app",
       "app.html!github:systemjs/plugin-text@0.0.3",
       "autocomplete/basic-use",
