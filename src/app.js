@@ -2,8 +2,11 @@ export class App {
     configureRouter(config, router) {
         config.title = 'Kendo UI Samples';
         config.map([{
-            route: '',
-            redirect: '#/installation/begin'
+            route: ['','about'],
+            moduleId: './about/about',
+            name: 'about',
+            nav: true,
+            title: 'About'
         }, {
           route: 'installation/:page',
           moduleId: './installation-wizard/wizard',
