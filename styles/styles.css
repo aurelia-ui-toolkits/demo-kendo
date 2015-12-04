@@ -1,60 +1,57 @@
 body {
   margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .splash {
-  text-align: center;
-  margin: 10% 0 0 0;
-  box-sizing: border-box;
+    text-align: center;
+    margin: 10% 0 0 0;
+    box-sizing: border-box;
 }
 
 .splash .message {
-  font-size: 72px;
-  line-height: 72px;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
-  text-transform: uppercase;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    line-height: 44px;
+    font-family: Arial, sans-serif;
+}
+
+.splash .subtitle {
+    font-size: 28px;
+
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
 }
 
 .splash .fa-spinner {
-  text-align: center;
-  display: inline-block;
-  font-size: 72px;
-  margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 72px;
+    margin-top: 50px;
 }
 
 .page-host {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50px;
-  bottom: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-@media print {
-  .page-host {
     position: absolute;
-    left: 10px;
+    left: 0;
     right: 0;
     top: 50px;
     bottom: 0;
-    overflow-y: inherit;
-    overflow-x: inherit;
-  }
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 section {
-  margin: 0 20px;
+    margin: 0 20px;
 }
 
 .navbar-nav li.loader {
-  margin: 12px 24px 0 6px;
+    margin: 12px 24px 0 6px;
 }
 
 .pictureDetail {
-  max-width: 425px;
+    max-width: 425px;
 }
 
 /* animate page transitions */
@@ -63,69 +60,27 @@ section.au-enter-active {
   animation: fadeInRight 1s;
 }
 
+/* animate flickr image entry */
 div.au-stagger {
   /* 50ms will be applied between each successive enter operation */
-  -webkit-animation-delay: 50ms;
-  animation-delay: 50ms;
+  -webkit-animation-delay:50ms;
+  animation-delay:50ms;
 }
 
-.card-container.au-enter {
-  opacity: 0 !important;
+.flickr-img.au-enter {
+  opacity: 0!important;
 }
 
-.card-container.au-enter-active {
+.flickr-img.au-enter-active {
   -webkit-animation: fadeIn 2s;
   animation: fadeIn 2s;
 }
 
-.card {
-  overflow: hidden;
-  position: relative;
-  border: 1px solid #CCC;
-  border-radius: 8px;
-  text-align: center;
-  padding: 0;
-  background-color: #337ab7;
-  color: rgb(136, 172, 217);
-  margin-bottom: 32px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+.flickr-img > a > img {
+  width: 260px;
+  height: 180px;
 }
 
-.card .content {
-  margin-top: 10px;
-}
-
-.card .content .name {
-  color: white;
-  text-shadow: 0 0 6px rgba(0, 0, 0, .5);
-  font-size: 18px;
-}
-
-.card .header-bg {
-  /* This stretches the canvas across the entire hero unit */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  border-bottom: 1px #FFF solid;
-  border-radius: 6px 6px 0 0;
-}
-
-.card .avatar {
-  position: relative;
-  margin-top: 15px;
-  z-index: 100;
-}
-
-.card .avatar img {
-  width: 100px;
-  height: 100px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 2px #FFF solid;
-}
 
 /* animation definitions */
 @-webkit-keyframes fadeInRight {
@@ -156,6 +111,7 @@ div.au-stagger {
   }
 }
 
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -172,4 +128,49 @@ div.au-stagger {
   100% {
     opacity: 1;
   }
+}
+
+.overlay
+{
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    min-width:100%;
+    min-height: 100%;
+    height:100%;
+    z-index: 10;
+    background: rgba(0,0,0,0.3);
+}
+
+
+.overlay-message
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 11;
+    font-size:50pt;
+    transform: translate(-50%, -50%);
+}
+
+.hljs {
+  background: inherit !important;
+}
+
+.panel-hover:hover {
+  cursor: pointer;
+}
+
+.panel-hover:hover strong {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.k-content > .row > *,
+.k-content > .row > *::before,
+.k-content > .row > *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
