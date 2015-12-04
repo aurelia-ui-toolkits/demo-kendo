@@ -15,6 +15,9 @@
 3. `jspm install`
 4. `gulp watch`
 
+### pre-deploy checklist
+1. update the [about page](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-plugin/blob/master/sample/src/about/about.html#L93-L203) with the current status of control development
+
 ### How to deploy from samples
 1. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, and `images` folder over to `demo-kendo`
 2. `npm install`
