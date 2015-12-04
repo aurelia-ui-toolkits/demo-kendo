@@ -18,7 +18,7 @@
 ### How to deploy from samples
 1. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, and `images` folder over to `demo-kendo`
 2. `npm install`
-3. `jspm install / jspm update`
+3. `jspm install` or `jspm update`
 4. `jspm registry create kendo jspm-git`
  1. base URL: **https://bower.telerik.com**
  2. Set advanced configurations? **yes**
