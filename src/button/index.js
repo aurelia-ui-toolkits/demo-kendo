@@ -9,7 +9,7 @@ export class Index {
             route: ['', 'basic-use'],
             moduleId: './basic-use',
             nav: true,
-            title: 'Basic Use'
+            title: 'Basic use'
         }, {
             route: 'images',
             moduleId: './images',
