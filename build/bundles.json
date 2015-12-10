@@ -17,6 +17,8 @@
         "aurelia-fetch-client",
         "aurelia-router",
         "aurelia-animator-css",
+        "aurelia-prism-plugin",
+        "aurelia-prism-plugin/**/*",
         "aurelia-templating-binding",
         "aurelia-templating-resources",
         "aurelia-templating-router",
@@ -27,6 +29,7 @@
         "bootstrap/css/bootstrap.css!text",
         "aurelia-kendoui-plugin",
         "aurelia-kendoui-plugin/**/*",
+        "aurelia-kendoui-plugin/**/*.html!text",
         "kendo-ui/styles/kendo.common.core.min.css!text",
         "kendo-ui/styles/kendo.bootstrap.min.css!text"
       ],

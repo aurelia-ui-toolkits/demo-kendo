@@ -15,6 +15,7 @@ System.config({
   },
 
   map: {
+    "JeroenVinke/aurelia-prism-plugin": "github:JeroenVinke/aurelia-prism-plugin@1.0.2",
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.0.1",
@@ -23,6 +24,7 @@ System.config({
     "aurelia-kendoui-plugin": "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master",
     "aurelia-loader-default": "npm:aurelia-loader-default@1.0.0-beta.1.0.1",
     "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0-beta.1",
+    "aurelia-prism-plugin": "github:JeroenVinke/aurelia-prism-plugin@1.0.2",
     "aurelia-router": "npm:aurelia-router@1.0.0-beta.1",
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0-beta.1.0.1",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.0.2",
@@ -40,6 +42,10 @@ System.config({
     "showdown": "github:showdownjs/showdown@1.3.0",
     "showdownjs/showdown": "github:showdownjs/showdown@1.3.0",
     "text": "github:systemjs/plugin-text@0.0.3",
+    "github:JeroenVinke/aurelia-prism-plugin@1.0.2": {
+      "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.3",
+      "prism": "github:PrismJS/prism@1.3.0"
+    },
     "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.2",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
@@ -56,7 +62,7 @@ System.config({
       "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.5.3"
+      "buffer": "npm:buffer@3.5.4"
     },
     "github:jspm/nodelibs-events@0.1.1": {
       "events": "npm:events@1.0.2"
@@ -238,12 +244,12 @@ System.config({
     "npm:babel-runtime@5.8.34": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:buffer@3.5.3": {
+    "npm:buffer@3.5.4": {
       "base64-js": "npm:base64-js@0.0.8",
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "ieee754": "npm:ieee754@1.1.6",
-      "is-array": "npm:is-array@1.0.1",
+      "isarray": "npm:isarray@0.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:clean-css@3.4.8": {

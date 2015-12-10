@@ -31,4 +31,4 @@
  6. Enter your Telerik credentials
 5. `jspm install`
 6. `gulp deploy`
-7. push changes to the github repo
+7. **push changes to the github repo**
