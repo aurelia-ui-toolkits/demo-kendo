@@ -69,11 +69,15 @@ System.config({
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/autocomplete/autocomplete",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/button/button",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/combobox/combobox",
+      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/children-parser",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/events",
+      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/index",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/options",
+      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/template-compiler",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/dropdownlist/dropdownlist",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/grid/grid",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/index",
+      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/menu/menu",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/scheduler/scheduler",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/tabstrip/tabstrip",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/toolbar/toolbar",
@@ -92,9 +96,35 @@ System.config({
       "github:twbs/bootstrap@3.3.6/js/bootstrap",
       "grid/basic-use",
       "grid/basic-use.html!github:systemjs/plugin-text@0.0.3",
-      "grid/html-config",
-      "grid/html-config.html!github:systemjs/plugin-text@0.0.3",
+      "grid/batch-editing",
+      "grid/batch-editing.html!github:systemjs/plugin-text@0.0.3",
+      "grid/binding-to-local-data",
+      "grid/binding-to-local-data.html!github:systemjs/plugin-text@0.0.3",
+      "grid/binding-to-remote-data",
+      "grid/binding-to-remote-data.html!github:systemjs/plugin-text@0.0.3",
+      "grid/binding-to-signalr",
+      "grid/binding-to-signalr.html!github:systemjs/plugin-text@0.0.3",
+      "grid/binding-to-websocket",
+      "grid/binding-to-websocket.html!github:systemjs/plugin-text@0.0.3",
+      "grid/editing-custom.editor",
+      "grid/editing-custom.editor.html!github:systemjs/plugin-text@0.0.3",
+      "grid/frozen-columns",
+      "grid/frozen-columns.html!github:systemjs/plugin-text@0.0.3",
       "grid/index",
+      "grid/initialization-from-table",
+      "grid/initialization-from-table.html!github:systemjs/plugin-text@0.0.3",
+      "grid/inline-editing",
+      "grid/inline-editing.html!github:systemjs/plugin-text@0.0.3",
+      "grid/popup-editing",
+      "grid/popup-editing.html!github:systemjs/plugin-text@0.0.3",
+      "grid/virtualization-of-local-data",
+      "grid/virtualization-of-local-data.html!github:systemjs/plugin-text@0.0.3",
+      "grid/virtualization-of-remote-data",
+      "grid/virtualization-of-remote-data-without-button",
+      "grid/virtualization-of-remote-data-without-button.html!github:systemjs/plugin-text@0.0.3",
+      "grid/virtualization-of-remote-data.html!github:systemjs/plugin-text@0.0.3",
+      "grid/working-offline",
+      "grid/working-offline.html!github:systemjs/plugin-text@0.0.3",
       "installation-wizard/core-instructions.html!github:systemjs/plugin-text@0.0.3",
       "installation-wizard/instructions",
       "installation-wizard/instructions.html!github:systemjs/plugin-text@0.0.3",
@@ -171,6 +201,21 @@ System.config({
       "kendo:bower-kendo-ui@2015.3.1201/styles/kendo.bootstrap.min.css!github:systemjs/plugin-text@0.0.3",
       "kendo:bower-kendo-ui@2015.3.1201/styles/kendo.common.core.min.css!github:systemjs/plugin-text@0.0.3",
       "main",
+      "menu/animation-effects",
+      "menu/animation-effects.html!github:systemjs/plugin-text@0.0.3",
+      "menu/api",
+      "menu/api.html!github:systemjs/plugin-text@0.0.3",
+      "menu/basic-use",
+      "menu/basic-use.html!github:systemjs/plugin-text@0.0.3",
+      "menu/context-menu",
+      "menu/context-menu.html!github:systemjs/plugin-text@0.0.3",
+      "menu/direction",
+      "menu/direction.html!github:systemjs/plugin-text@0.0.3",
+      "menu/images",
+      "menu/images.html!github:systemjs/plugin-text@0.0.3",
+      "menu/index",
+      "menu/orientation",
+      "menu/orientation.html!github:systemjs/plugin-text@0.0.3",
       "nav-bar",
       "nav-bar.html!github:systemjs/plugin-text@0.0.3",
       "npm:aurelia-animator-css@1.0.0-beta.1.0.1",
@@ -279,21 +324,16 @@ System.config({
       "tabstrip/basic-use.html!github:systemjs/plugin-text@0.0.3",
       "tabstrip/images",
       "tabstrip/images.html!github:systemjs/plugin-text@0.0.3",
-      "tabstrip/index",
-      "tabstrip/scrollable-tabs",
       "tabstrip/scrollable-tabs.html!github:systemjs/plugin-text@0.0.3",
       "tabstrip/tab-position.html!github:systemjs/plugin-text@0.0.3",
-      "toolbar/api",
       "toolbar/api.html!github:systemjs/plugin-text@0.0.3",
-      "toolbar/basic-use",
       "toolbar/basic-use.html!github:systemjs/plugin-text@0.0.3",
-      "toolbar/customizing-with-editors",
-      "toolbar/customizing-with-editors.html!github:systemjs/plugin-text@0.0.3",
-      "toolbar/index"
+      "toolbar/customizing-with-editors.html!github:systemjs/plugin-text@0.0.3"
     ]
   },
 
   map: {
+    "JeroenVinke/aurelia-prism-plugin": "github:JeroenVinke/aurelia-prism-plugin@1.0.2",
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.0.1",
@@ -302,6 +342,7 @@ System.config({
     "aurelia-kendoui-plugin": "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master",
     "aurelia-loader-default": "npm:aurelia-loader-default@1.0.0-beta.1.0.1",
     "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0-beta.1",
+    "aurelia-prism-plugin": "github:JeroenVinke/aurelia-prism-plugin@1.0.2",
     "aurelia-router": "npm:aurelia-router@1.0.0-beta.1",
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0-beta.1.0.1",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.0.2",
@@ -319,6 +360,10 @@ System.config({
     "showdown": "github:showdownjs/showdown@1.3.0",
     "showdownjs/showdown": "github:showdownjs/showdown@1.3.0",
     "text": "github:systemjs/plugin-text@0.0.3",
+    "github:JeroenVinke/aurelia-prism-plugin@1.0.2": {
+      "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.3",
+      "prism": "github:PrismJS/prism@1.3.0"
+    },
     "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.2",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
@@ -335,7 +380,7 @@ System.config({
       "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.5.3"
+      "buffer": "npm:buffer@3.5.4"
     },
     "github:jspm/nodelibs-events@0.1.1": {
       "events": "npm:events@1.0.2"
@@ -517,12 +562,12 @@ System.config({
     "npm:babel-runtime@5.8.34": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:buffer@3.5.3": {
+    "npm:buffer@3.5.4": {
       "base64-js": "npm:base64-js@0.0.8",
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "ieee754": "npm:ieee754@1.1.6",
-      "is-array": "npm:is-array@1.0.1",
+      "isarray": "npm:isarray@0.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:clean-css@3.4.8": {
