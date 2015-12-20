@@ -15,7 +15,6 @@ System.config({
   },
 
   map: {
-    "JeroenVinke/aurelia-prism-plugin": "github:JeroenVinke/aurelia-prism-plugin@1.0.2",
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.0.1",
@@ -41,11 +40,8 @@ System.config({
     "kendo-ui": "kendo:bower-kendo-ui@2015.3.1201",
     "showdown": "github:showdownjs/showdown@1.3.0",
     "showdownjs/showdown": "github:showdownjs/showdown@1.3.0",
+    "prism": "github:PrismJS/prism@1.3.0",
     "text": "github:systemjs/plugin-text@0.0.3",
-    "github:JeroenVinke/aurelia-prism-plugin@1.0.2": {
-      "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.3",
-      "prism": "github:PrismJS/prism@1.3.0"
-    },
     "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.2",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
