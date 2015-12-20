@@ -29,6 +29,7 @@
  4. Disable shallow git clones? **no**
  5. Enable authentication? **yes**
  6. Enter your Telerik credentials
-5. `jspm install` or `jspm update`
-6. `gulp deploy`
-7. **push changes to the github repo**
+5. install any new dependencies of the `sample` app in `demo-kendo`
+6. `jspm install` or `jspm update`
+7. `gulp deploy`
+8. **push changes to the github repo**
