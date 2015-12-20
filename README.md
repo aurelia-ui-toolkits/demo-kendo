@@ -31,5 +31,6 @@
  6. Enter your Telerik credentials
 5. install any new dependencies of the `sample` app in `demo-kendo`
 6. `jspm install` or `jspm update`
-7. `gulp deploy`
-8. **push changes to the github repo**
+7. run `gulp watch` and verify that everything runs correctly, and that there are no errors in the console
+8. `gulp deploy`
+9. **push changes to the github repo**
