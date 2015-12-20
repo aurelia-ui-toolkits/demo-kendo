@@ -19,9 +19,9 @@
 1. update the [about page](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-plugin/blob/master/sample/src/about/about.html#L93-L203) with the current status of control development
 
 ### How to deploy from samples
-1. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, and `images` folder over to `demo-kendo`
-2. `npm install`
-3. `jspm install` or `jspm update`
+1. remove the `src`, `styles` and `images` folder from the `demo-kendo` repository
+2. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, and `images` folder over to `demo-kendo`
+3. `npm install`
 4. `jspm registry create kendo jspm-git`
  1. base URL: **https://bower.telerik.com**
  2. Set advanced configurations? **yes**
@@ -29,6 +29,6 @@
  4. Disable shallow git clones? **no**
  5. Enable authentication? **yes**
  6. Enter your Telerik credentials
-5. `jspm install`
+5. `jspm install` or `jspm update`
 6. `gulp deploy`
 7. **push changes to the github repo**
