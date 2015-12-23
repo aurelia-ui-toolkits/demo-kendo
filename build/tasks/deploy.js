@@ -4,34 +4,32 @@ var runSequence = require('run-sequence');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
 
-gulp.task('deploy-gh-pages', function() {
+gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
   return gulp.src([
-      './dist/app-build.js',
+      './src/**/*.js',
       './styles/*.*',
       './images/*.*',
-      './jspm_packages/system.js',
-      './jspm_packages/github/twbs/bootstrap@3.3.6/fonts/*',
-      './jspm_packages/npm/font-awesome@4.4.0/**/*',
-      './jspm_packages/kendo/bower-kendo-ui@2015.3.1201/styles/**/*',
-      './jspm_packages/npm/font-awesome@4.4.0/*',
+      './jspm_packages/**/*',
+      '!./jspm_packages/kendo/bower-kendo-ui@*/src/**/*', // Do not remove this one!!
+      '!./jspm_packages/kendo/bower-kendo-ui@*/js/**/*',
+      '!./jspm_packages/github/aurelia-ui-toolkits/**/*',
+      '!./jspm_packages/github/systemjs/**/*',
+      '!./jspm_packages/github/showdownjs/**/*',
+      '!./jspm_packages/github/PrismJS/**/*',
+      '!./jspm_packages/github/jspm/**/*',
+      '!./jspm_packages/npm/[a-eA-Eg-zG-Z]*/**/*', // exclude font-awesome
       './index.html',
       './favicon.ico',
       './config.js'
     ], { base: "." })
+    // .pipe(gulp.dest('./dist')) // for debugging
     .pipe(ghPages());
 });
-//
-// gulp.task('copy-kendo-images', function () {
-//    return gulp.src([
-//        './jspm_packages/kendo/bower-kendo-ui@2015.2.813/styles/Bootstrap/*.*'
-//    ], {base: "./jspm_packages/kendo/bower-kendo-ui@2015.2.813/styles/"})
-//    .pipe(gulp.dest('.'));
-// });
-//
-// gulp.task('clean-kendo-images', function () {
-//   return gulp.src('./Bootstrap')
-//     .pipe(vinylPaths(del));
-// });
+
+gulp.task('delete-kendo-src', function () {
+  return gulp.src(['./jspm_packages/kendo/bower-kendo-ui@*/src'])
+    .pipe(vinylPaths(del));
+});
 
 gulp.task('deploy', function () {
   return runSequence(

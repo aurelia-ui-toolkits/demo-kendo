@@ -1,0 +1,15 @@
+{
+  "title": "Stock",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "multiple-panes": {
+      "files": ["js", "html", "css"]
+    },
+    "virtualization": {},
+    "pdf-export": {
+      "files": ["js", "html", "css"]
+    }
+  }
+}

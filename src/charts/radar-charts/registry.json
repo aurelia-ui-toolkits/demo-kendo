@@ -1,0 +1,13 @@
+{
+  "title": "Radar charts",
+  "samples": {
+    "radar-line": {
+      "route": ["", "radar-line"]
+    },
+    "binding-to-local-data": {},
+    "binding-to-remote-data": {},
+    "binding-to-grouped-data": {},
+    "radar-area": {},
+    "smooth-radar-line": {},
+  }
+}

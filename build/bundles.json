@@ -1,23 +1,30 @@
 {
   "bundles": {
-    "dist/app-build": {
+    "src/app-build": {
       "includes": [
-        "*",
-        "*/**/*",
+        "shared/*.js",
+        "*.js",
+        "**/*.json!json",
+        "*.html!text",
+        "shared/*.html!text",
+        "installation-wizard/*.js",
+        "installation-wizard/*.html!text",
+        "about/*.js",
+        "about/*.html!text",
+        "theme-selector/*.js",
+        "theme-selector/*.html!text",
+        "help/*.js",
+        "help/*.html!text",
         "showdown",
         "jquery",
-        "*/**/*.html!text",
-        "*/**/*.css!text",
-        "*.html!text",
-        "*.css!text",
         "css",
         "text",
         "aurelia-framework",
         "aurelia-bootstrapper",
-        "aurelia-fetch-client",
         "aurelia-router",
-        "aurelia-animator-css",
         "prism",
+        "core-js",
+        "babel",
         "aurelia-templating-binding",
         "aurelia-templating-resources",
         "aurelia-templating-router",
@@ -28,9 +35,13 @@
         "bootstrap/css/bootstrap.css!text",
         "aurelia-kendoui-plugin",
         "aurelia-kendoui-plugin/**/*",
-        "aurelia-kendoui-plugin/**/*.html!text",
-        "kendo-ui/styles/kendo.common.core.min.css!text",
-        "kendo-ui/styles/kendo.bootstrap.min.css!text"
+        "aurelia-kendoui-plugin/**/*.html!text"
+      ],
+      "excludes": [
+        "kendo-ui/js/kendo.all.min.js",
+        "kendo-ui/js/kendo.dataviz.min.js",
+        "kendo-ui/js/kendo.core.min.js",
+        "kendo-ui/js/kendo.mobile.min.js"
       ],
       "options": {
         "inject": true,

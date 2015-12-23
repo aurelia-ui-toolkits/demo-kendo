@@ -1,0 +1,13 @@
+{
+  "title": "Pie charts",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "pie-labels": {},
+    "binding-to-remote-data": {
+      "files": ["html", "js", "css"]
+    },
+    "binding-to-local-data": {}
+  }
+}
