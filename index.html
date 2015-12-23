@@ -2,15 +2,20 @@
 <html>
   <head>
     <title>Aurelia</title>
-    <link rel="stylesheet" href="jspm_packages/npm/font-awesome@4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css">
+    <link rel="stylesheet" href="jspm_packages/npm/font-awesome@4.5.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
   </head>
 
   <body aurelia-app="main">
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        disableDefaultChat: true
+      };
+    </script>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
     <div class="splash">
       <div class="message">Aurelia KendoUI Demo</div>
       <i class="fa fa-spinner fa-spin"></i>
