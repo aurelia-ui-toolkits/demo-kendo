@@ -7,6 +7,8 @@ var vinylPaths = require('vinyl-paths');
 gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
   return gulp.src([
       './src/**/*.js',
+      './src/**/*.html',
+      './src/**/*.css',
       './styles/*.*',
       './images/*.*',
       './jspm_packages/**/*',
@@ -17,7 +19,7 @@ gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
       '!./jspm_packages/github/showdownjs/**/*',
       '!./jspm_packages/github/PrismJS/**/*',
       '!./jspm_packages/github/jspm/**/*',
-      '!./jspm_packages/npm/[a-eA-Eg-zG-Z]*/**/*', // exclude font-awesome
+      '!./jspm_packages/npm/[aAc-eC-Eg-zG-Z]*/**/*', // exclude font-awesome
       './index.html',
       './favicon.ico',
       './config.js'

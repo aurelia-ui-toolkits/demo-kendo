@@ -40,7 +40,6 @@
       "excludes": [
         "kendo-ui/js/kendo.all.min.js",
         "kendo-ui/js/kendo.dataviz.min.js",
-        "kendo-ui/js/kendo.core.min.js",
         "kendo-ui/js/kendo.mobile.min.js"
       ],
       "options": {
