@@ -139,6 +139,7 @@ System.config({
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.color.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.columnmenu.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.columnsorter.min",
+      "kendo:bower-kendo-ui@2015.3.1214/js/kendo.core.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.data.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.data.odata.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.data.xml.min",
