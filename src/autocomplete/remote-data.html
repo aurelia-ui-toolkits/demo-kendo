@@ -1,0 +1,12 @@
+<template>
+  <p><strong>People:</strong></p>
+  <p>
+      <input k-autocomplete="data-source.bind: datasource;
+                      data-text-field: ProductName;
+                      filter: contains;
+                      min-length: 3"
+              value.bind="value"
+              style="width: 300px"></input>
+  </p>
+  <p class="demo-hint">Hint: type "che"</p>
+</template>
