@@ -6,34 +6,27 @@ var vinylPaths = require('vinyl-paths');
 
 gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
   return gulp.src([
-      './src/**/*.js',
-      './src/**/*.html',
-      './src/**/*.css',
-      './styles/*.*',
-      './images/*.*',
-      './jspm_packages/**/*',
-      '!./jspm_packages/kendo/bower-kendo-ui@*/src/**/*', // Do not remove this one!!
-      '!./jspm_packages/kendo/bower-kendo-ui@*/js/**/*',
-      '!./jspm_packages/github/aurelia-ui-toolkits/**/*',
-      '!./jspm_packages/github/systemjs/**/*',
-      '!./jspm_packages/github/showdownjs/**/*',
-      '!./jspm_packages/github/PrismJS/**/*',
-      '!./jspm_packages/github/jspm/**/*',
-      '!./jspm_packages/npm/[aAc-eC-Eg-zG-Z]*/**/*', // exclude font-awesome
-      './index.html',
-      './favicon.ico',
-      './config.js'
-    ], { base: "." })
+    './src/**/*',
+    './styles/*.*',
+    './images/*.*',
+    './jspm_packages/*.js', // include system.js
+    './jspm_packages/github/twbs/bootstrap@*/fonts/*',
+    './jspm_packages/npm/font-awesome@*/**/*',
+    './jspm_packages/kendo/bower-kendo-ui@*/styles/**/*',
+    './index.html',
+    './favicon.ico',
+    './config.js'
+  ], { base: '.' })
     // .pipe(gulp.dest('./dist')) // for debugging
     .pipe(ghPages());
 });
 
-gulp.task('delete-kendo-src', function () {
+gulp.task('delete-kendo-src', function() {
   return gulp.src(['./jspm_packages/kendo/bower-kendo-ui@*/src'])
     .pipe(vinylPaths(del));
 });
 
-gulp.task('deploy', function () {
+gulp.task('deploy', function() {
   return runSequence(
     'build',
     'bundle',
