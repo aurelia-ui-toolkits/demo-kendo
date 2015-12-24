@@ -1,0 +1,12 @@
+{
+  "title": "Funnel charts",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "funnel-labels": {},
+    "binding-to-remote-data": {},
+    "binding-to-local-data": {}
+
+  }
+}

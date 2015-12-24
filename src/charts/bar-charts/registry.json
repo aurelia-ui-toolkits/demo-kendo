@@ -1,0 +1,29 @@
+{
+  "title": "Bar charts",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "binding-to-grouped-data": {},
+    "binding-to-local-data": {},
+    "binding-to-remote-data": {},
+    "column-chart": {},
+    "custom-pan-and-zoom": {},
+    "custom-visuals": {},
+    "date-axis": {},
+    "error-bars": {},
+    "gap-and-spacing": {},
+    "logarithmic-axis": {},
+    "multi-axis": {},
+    "pan-and-zoom": {},
+    "plot-bands": {},
+    "stacked-and-grouped-bars-100": {
+      "title": "Stacked and grouped bars 100%"
+    },
+    "stacked-and-grouped-bars": {},
+    "stacked-bars-100": {
+      "title": "Stacked bars 100%"
+    },
+    "stacked-bars": {}
+  }
+}
