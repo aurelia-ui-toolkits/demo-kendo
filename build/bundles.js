@@ -62,7 +62,8 @@ module.exports = {
       "excludes": excludes,
       "options": {
         "inject": true,
-        "minify": true
+        "minify": true,
+        "rev": true
       }
     }
   }
