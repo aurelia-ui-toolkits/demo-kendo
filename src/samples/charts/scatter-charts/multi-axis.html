@@ -1,0 +1,11 @@
+<template>
+  <k-chart  k-title.bind="{text: 'Dyno run results'}"
+            k-legend.bind="{visible: false}"
+            k-data-source.bind="{data: enginePerformance}"
+            k-series-defaults.bind="seriesDefaults"
+            k-series.bind="series"
+            k-x-axis.bind="xAxis"
+            k-y-axis.bind="yAxis"
+            k-tooltip.bind="{visible: true}">
+  </k-chart>
+</template>
