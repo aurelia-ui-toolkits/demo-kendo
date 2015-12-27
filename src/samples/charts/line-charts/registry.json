@@ -1,0 +1,20 @@
+{
+  "title": "Line charts",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "binding-to-local-data": {
+      "files": ["html", "js", "json"]
+    },
+    "binding-to-remote-data": {},
+    "binding-to-grouped-data": {},
+    "date-axis": {},
+    "error-bars": {},
+    "logarithmic-axis": {},
+    "multi-axis": {},
+    "smooth-line": {},
+    "stacked-line": {},
+    "stepped-line": {}
+  }
+}

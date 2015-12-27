@@ -1,0 +1,47 @@
+{
+  "Most popular": {
+    "Grid": "grid",
+    "Bar Charts": "bar-charts",
+    "Line Charts": "line-charts",
+    "Stock Charts": "stock",
+    "DropDownList": "dropdownlist"
+  },
+  "Data management": {
+    "Grid": "grid"
+  },
+  "Editors": {
+    "Autocomplete": "autocomplete",
+    "DropDownList": "dropdownlist",
+    "Slider": "slider"
+  },
+  "Charts": {
+    "Charts 1": {
+      "Area": "area-charts",
+      "Bar Charts": "bar-charts",
+      "Box Plot Charts": "box-plot-charts",
+      "Bubble Charts": "bubble-charts",
+      "Bullet Charts": "bullet-charts",
+      "Donut Charts": "donut-charts",
+      "Funnel Charts": "funnel-charts",
+      "Line Charts": "line-charts",
+      "Pie Charts": "pie-charts"
+    },
+    "Charts 2": {
+      "Polar Charts": "polar-charts",
+      "Radar Charts": "radar-charts",
+      "Range Bar Charts": "range-charts",
+      "Scatter Charts": "scatter-charts",
+      "Sparklines": "sparkline",
+      "Stock Charts": "stock",
+      "TreeMap": "treemap",
+      "Waterfall Charts": "waterfall-charts"
+    }
+  },
+  "Navigation": {
+    "Button": "button",
+    "TabStrip": "tabstrip"
+  },
+  "Interactivity & UX": {
+    "ProgressBar": "progressbar"
+  }
+}

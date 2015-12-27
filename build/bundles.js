@@ -30,9 +30,9 @@ var aureliaBundle = [
 ];
 
 var pluginsBundle = [
-  "aurelia-kendoui-plugin", // important, this bundles the kendoui plugin, but also Kendo
-  "aurelia-kendoui-plugin/**/*", // important, this bundles the kendoui plugin, but also Kendo
-  "aurelia-kendoui-plugin/**/*.html!text", // important, this bundles the kendoui plugin, but also Kendo
+  "aurelia-kendoui-plugin",
+  "aurelia-kendoui-plugin/**/*",
+  "aurelia-kendoui-plugin/**/*.html!text",
   "showdown",
   "prism",
   "jquery",
@@ -47,19 +47,15 @@ var pluginsBundle = [
 // concatenate all bundle definitions
 var bundle = nonSampleBundle.concat(aureliaBundle, pluginsBundle);
 
-// the JSPM bundler gets stuck when you try and bundle + minify these
-// we don't need them anyways as we load individual files
-var excludes = [
-  "kendo-ui/js/kendo.all.min.js",
-  "kendo-ui/js/kendo.dataviz.min.js",
-  "kendo-ui/js/kendo.mobile.min.js"
-];
 
 module.exports = {
   "bundles": {
     "src/app-build": {
       "includes": bundle,
-      "excludes": excludes,
+      "excludes": [
+        "kendo-ui",
+        "kendo-ui/**/*.js"
+      ],
       "options": {
         "inject": true,
         "minify": true,

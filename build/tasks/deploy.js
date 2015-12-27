@@ -13,6 +13,11 @@ gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
     './jspm_packages/github/twbs/bootstrap@*/fonts/*',
     './jspm_packages/npm/font-awesome@*/**/*',
     './jspm_packages/kendo/bower-kendo-ui@*/styles/**/*',
+    './jspm_packages/kendo/bower-kendo-ui@*/js/*.js',
+    '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.all.min.js',
+    '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.web.min.js',
+    '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.dataviz.min.js',
+    '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.mobile.min.js',
     './index.html',
     './favicon.ico',
     './config.js'

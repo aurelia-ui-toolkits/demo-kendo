@@ -1,0 +1,20 @@
+{
+  "title": "Area charts",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "binding-to-grouped-data": {},
+    "binding-to-local-data": {
+      "files": ["html", "js", "json"]
+    },
+    "binding-to-remote-data": {},
+    "date-axis": {},
+    "error-bars": {},
+    "logarithmic-axis": {},
+    "multi-axis": {},
+    "smooth-area": {},
+    "stacked-area": {},
+    "stepped-area": {}
+  }
+}

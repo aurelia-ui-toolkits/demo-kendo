@@ -1,17 +1,10 @@
 <template>
   <div class="tc-theme-list">
       <div class="tc-column">
-        <h4>Themes</h4>
-        <ul class="themes-grid" ref="listView"></ul>
+        <div repeat.for="theme of themes" click.delegate="selectTheme(theme)" class="tc-item ${settings.activeTheme == theme.value ? 'tc-item-selected' : ''}">
+          <span repeat.for="color of theme.colors" class="tc-color" css="background-color: ${color}"></span>
+          <span class="tc-name">${theme.name}</span>
+        </div>
       </div>
   </div>
-
-  <script ref="template" type="text/x-kendo-template">
-      <li class="tc-item">
-          # for (var i = 0; i < colors.length; i++) { #
-              <span class="tc-color" style="background-color: #= colors[i] #"></span>
-          # } #
-          <span class="tc-name">#: name #</span>
-      </li>
-  </script>
 </template>
