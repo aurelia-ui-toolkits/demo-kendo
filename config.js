@@ -16,7 +16,7 @@ System.config({
     "kendo:*": "jspm_packages/kendo/*"
   },
   bundles: {
-    "app-build-e2819601dc": [
+    "app-build-013773ec1b": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.3",
       "app",
@@ -146,6 +146,7 @@ System.config({
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.slider.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.sortable.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.tabstrip.min",
+      "kendo:bower-kendo-ui@2015.3.1214/js/kendo.toolbar.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.userevents.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.validator.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.view.min",
