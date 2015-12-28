@@ -5,6 +5,6 @@ var vinylPaths = require('vinyl-paths');
 
 // deletes all files in the output path
 gulp.task('clean', function() {
-  return gulp.src(['./src/app-build-*.js', './src/app-kendo-*.js'])
+  return gulp.src(['./src/app-build-*.js', './src/kendo-*.js'])
     .pipe(vinylPaths(del));
 });

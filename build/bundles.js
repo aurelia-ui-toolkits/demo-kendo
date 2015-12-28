@@ -61,6 +61,32 @@ module.exports = {
         "minify": true,
         "rev": true
       }
+    },
+    "src/kendo-bundle": {
+      "includes": ["kendo-ui/js/*.js"],
+      "excludes": [
+        "kendo-ui/js/kendo.dataviz.*",
+        "kendo-ui/js/angular.min.js",
+        "kendo-ui/js/jquery.min.js",
+        "kendo-ui/js/kendo.angular.min.js",
+        "kendo-ui/js/kendo.angular2.min.js",
+        "kendo-ui/js/kendo.all.min.js",
+        "kendo-ui/js/kendo.web.min.js",
+        "kendo-ui/js/kendo.mobile.min.js",
+      ],
+      "options": {
+        "inject": true
+      }
+    },
+    "src/kendo-dataviz-bundle": {
+      "includes": ["kendo-ui/js/kendo.dataviz.*.js"],
+      "excludes": [
+        "kendo-ui/js/kendo.dataviz.min.js",
+        "kendo-ui/js/kendo.dataviz.mobile.min.js"
+      ],
+      "options": {
+        "inject": true
+      }
     }
   }
 }
