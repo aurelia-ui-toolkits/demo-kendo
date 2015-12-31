@@ -10,11 +10,14 @@
       "files": ["html", "js", "json"]
     },
     "binding-to-remote-data": {},
-    "editing-custom-editor": {},
+    "binding-to-signalr": {},
+    "editing-custom-editor": {
+      "files": ["html", "js", "json"]
+    },
     "frozen-columns": {},
     "initialization-from-table": {},
     "inline-editing": {},
     "popup-editing": {},
-    "working-offline": {},
+    "working-offline": {}
   }
 }
