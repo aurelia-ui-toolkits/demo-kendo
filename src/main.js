@@ -1,4 +1,5 @@
 import 'bootstrap';
+import {Settings} from 'settings';
 import {ThemeManager} from 'shared/theme-manager';
 
 export function configure(aurelia) {
@@ -13,9 +14,11 @@ export function configure(aurelia) {
   aurelia.use.globalResources('shared/au-code');
 
   aurelia.start()
-  .then(au => au.setRoot('app'))
   .then(au => {
     let manager = au.container.get(ThemeManager);
-    return manager.loadTheme('material');
-  });
+    let settings = au.container.get(Settings);
+    return manager.loadTheme(settings.defaultTheme)
+           .then(() => au);
+  })
+  .then(au => au.setRoot('app'));
 }

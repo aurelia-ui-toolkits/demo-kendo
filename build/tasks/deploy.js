@@ -17,7 +17,10 @@ gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
     '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.all.min.js',
     '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.web.min.js',
     '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.dataviz.min.js',
+    '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.dataviz.mobile.min.js',
     '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.mobile.min.js',
+    './jspm_packages/github/PrismJS/prism*/themes/*.css',
+    './jspm_packages/npm/babel-runtime*/**/*',
     './index.html',
     './favicon.ico',
     './config.js'
@@ -33,6 +36,7 @@ gulp.task('delete-kendo-src', function() {
 
 gulp.task('deploy', function() {
   return runSequence(
+    'unbundle',
     'build',
     'bundle',
     // 'copy-kendo-images',
