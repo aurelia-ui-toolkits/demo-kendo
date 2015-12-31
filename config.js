@@ -16,7 +16,7 @@ System.config({
     "kendo:*": "jspm_packages/kendo/*"
   },
   bundles: {
-    "app-build-7f80927488": [
+    "app-build-646a7d0665": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.3",
       "app",
@@ -153,6 +153,8 @@ System.config({
       "npm:aurelia-templating-router@1.0.0-beta.1.0.4/router-view",
       "npm:aurelia-templating@1.0.0-beta.1.0.2",
       "npm:aurelia-templating@1.0.0-beta.1.0.2/aurelia-templating",
+      "npm:babel-core@5.8.34",
+      "npm:babel-core@5.8.34/browser",
       "npm:core-js@1.2.6",
       "npm:core-js@1.2.6/client/shim.min",
       "npm:core-js@1.2.6/library/core",
