@@ -20,6 +20,7 @@ gulp.task('deploy-gh-pages', ['delete-kendo-src'], function() {
     '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.dataviz.mobile.min.js',
     '!./jspm_packages/kendo/bower-kendo-ui@*/js/kendo.mobile.min.js',
     './jspm_packages/github/PrismJS/prism*/themes/*.css',
+    './jspm_packages/github/google/code-prettify*/loader/**/*',
     './jspm_packages/npm/babel-runtime*/**/*',
     './index.html',
     './favicon.ico',

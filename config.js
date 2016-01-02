@@ -16,6 +16,12 @@ System.config({
     "kendo:*": "jspm_packages/kendo/*"
   },
 
+  meta: {
+    "showdown/dist/showdown": {
+      "format": "global"
+    }
+  },
+
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.0.1",
     "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.3",
@@ -42,11 +48,13 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "fetch": "github:github/fetch@0.10.1",
     "font-awesome": "npm:font-awesome@4.5.0",
+    "google/code-prettify": "github:google/code-prettify@master",
     "jquery": "github:components/jquery@2.1.4",
     "json": "github:systemjs/plugin-json@0.1.0",
     "kendo-ui": "kendo:bower-kendo-ui@2015.3.1214",
     "prism": "github:PrismJS/prism@1.3.0",
     "showdown": "github:showdownjs/showdown@1.3.0",
+    "showdown-prettify": "npm:showdown-prettify@1.0.2",
     "text": "github:systemjs/plugin-text@0.0.3",
     "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master": {
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1",
@@ -313,6 +321,12 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:showdown-prettify@1.0.2": {
+      "showdown": "npm:showdown@1.0.2"
+    },
+    "npm:showdown@1.0.2": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:source-map@0.4.4": {
       "amdefine": "npm:amdefine@1.0.0",

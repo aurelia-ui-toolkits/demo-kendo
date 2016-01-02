@@ -7,7 +7,7 @@ export class BasicUse {
   dataSource = {
     transport: {
       read: function(options) {
-        return System.import('samples/cart/treemap/json/population-usa.json!json')
+        return System.import('samples/chart/treemap/json/population-usa.json!json')
         .then(data => options.success(data));
       }
     },
@@ -19,7 +19,7 @@ export class BasicUse {
   };
 
   typeChanged() {
-    this.treemap.widget.setOptions({
+    this.treemap.setOptions({
       type: this.type
     });
   }

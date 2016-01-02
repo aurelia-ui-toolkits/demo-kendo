@@ -41,6 +41,7 @@ var pluginsBundle = [
   "core-js",
   "core-js/library/**/*",
   "babel",
+  'showdown-prettify',
   // "core-js/client/**/*",
   // "babel",
   // "babel/browser/**/*",
