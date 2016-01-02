@@ -16,7 +16,7 @@ System.config({
     "kendo:*": "jspm_packages/kendo/*"
   },
   bundles: {
-    "app-build-6024d7daf0": [
+    "app-build-3841a02474": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.3",
       "app",
@@ -39,11 +39,11 @@ System.config({
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/constants",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/decorators",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/events",
-      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/index",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/options",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/template-compiler",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/util",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/widget-base",
+      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/config-builder",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/dropdownlist/dropdownlist",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/grid/au-col",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/grid/grid",
