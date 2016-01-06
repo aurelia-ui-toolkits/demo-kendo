@@ -16,7 +16,7 @@ System.config({
     "kendo:*": "jspm_packages/kendo/*"
   },
   bundles: {
-    "app-build-3841a02474": [
+    "app-build-2741bf4861": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.3",
       "app",
