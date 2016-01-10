@@ -3,7 +3,6 @@
 ### 6. Grid
 <br>
 
-
 ##### View: k-grid.html
 
 ```html
@@ -32,10 +31,11 @@
 <br>
 
 Here is this view rendered by the **[application associated with this tutorial](https://github.com/aurelia-ui-toolkits/skeleton-navigation-kendo)**.
-<br>
+<br><br>
+
 
 <p align=center>
-  <img src="http://i.imgur.com/aBj3tod.png"></img>
+  <img src="http://i.imgur.com/lZunvna.png"></img>
  <br><br>
 Image 1
 </p>
@@ -111,6 +111,6 @@ export class BasicUse {
 
 * * *
 <br>
-#### More details: [Components catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/grid)
-#### Next page: &nbsp;&nbsp; [Next actions](http://localhost:3000/#/help/docs/app_developers_tutorials/7._next_actions)
+#### More details: [Components catalog](#/samples/grid)
+#### Next page: &nbsp;&nbsp; [Next actions](#/help/docs/app_developers_tutorials/7._next_actions)
 
