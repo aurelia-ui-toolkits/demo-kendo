@@ -1,8 +1,6 @@
 /*
  * SystemJS Polyfills for URL and Promise providing IE8+ Support
  */
-(function(define) {
-
 // from https://gist.github.com/Yaffle/1088850
 (function(global) {
 function URLPolyfill(url, baseURL) {
@@ -321,8 +319,8 @@ define(function(require) {
 	};
 
 	function isNode () {
-		return typeof process !== 'undefined' &&
-			Object.prototype.toString.call(process) === '[object process]';
+		return typeof process !== 'undefined' && process !== null &&
+			typeof process.nextTick === 'function';
 	}
 
 	function hasMutationObserver () {
@@ -373,7 +371,7 @@ define(function() {
 	 * @returns {String} formatted string, suitable for output to developers
 	 */
 	function formatError(e) {
-		var s = typeof e === 'object' && e !== null && (e.stack || e.message) ? e.stack || e.message : formatObject(e);
+		var s = typeof e === 'object' && e !== null && e.stack ? e.stack : formatObject(e);
 		return e instanceof Error ? s : s + ' (WARNING: non-Error used)';
 	}
 
@@ -1342,4 +1340,4 @@ define(function() {
 (1)
 });
 ;if (typeof systemJSBootstrap !== 'undefined')
-  systemJSBootstrap();})();
+  systemJSBootstrap();

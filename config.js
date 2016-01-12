@@ -565,7 +565,7 @@ System.config({
       "kendo:bower-kendo-ui@2015.3.1214/js/kendo.window.min",
       "kendo:bower-kendo-ui@2015.3.1214/js/pako_deflate.min"
     ],
-    "app-build-fe81fd7223": [
+    "app-build-3386a9e8ff": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
@@ -588,11 +588,11 @@ System.config({
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/constants",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/decorators",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/events",
+      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/index",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/options",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/template-compiler",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/util",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/common/widget-base",
-      "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/config-builder",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/dropdownlist/dropdownlist",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/grid/au-col",
       "github:aurelia-ui-toolkits/aurelia-kendoui-plugin@master/grid/grid",
@@ -614,6 +614,8 @@ System.config({
       "github:showdownjs/showdown@1.3.0/dist/showdown",
       "github:systemjs/plugin-css@0.1.20",
       "github:systemjs/plugin-css@0.1.20/css",
+      "github:systemjs/plugin-json@0.1.0",
+      "github:systemjs/plugin-json@0.1.0/json",
       "github:systemjs/plugin-text@0.0.4",
       "github:systemjs/plugin-text@0.0.4/text",
       "github:twbs/bootstrap@3.3.6",
