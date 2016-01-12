@@ -37,6 +37,7 @@ gulp.task('delete-kendo-src', function() {
 
 gulp.task('deploy', function() {
   return runSequence(
+    'clean',
     'unbundle',
     'bundle',
     // 'copy-kendo-images',

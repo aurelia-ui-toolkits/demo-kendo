@@ -36,6 +36,7 @@ var pluginsBundle = [
   "css",
   "text",
   "core-js",
+  "json",
   "core-js/library/**/*",
   "babel",
   'showdown-prettify',
