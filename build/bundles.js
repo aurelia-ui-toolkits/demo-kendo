@@ -4,7 +4,6 @@
 var nonSampleBundle = [
   "[shared/*.js]",
   "[*.js]",
-  "**/*.json!json", // bundle all json files (such as kendo's local data samples, registry.json)
   "*.html!text",
   "shared/*.html!text",
   "[installation/*.js]",
@@ -12,9 +11,7 @@ var nonSampleBundle = [
   "[about/*.js]",
   "about/*.html!text",
   "[theme-selector/*.js]",
-  "theme-selector/*.html!text",
-  "[help/**/*.js]",
-  "help/**/*.html!text"
+  "theme-selector/*.html!text"
 ];
 
 var aureliaBundle = [
@@ -63,6 +60,26 @@ module.exports = {
         "inject": true,
         "minify": true,
         "rev": true
+      }
+    },
+    "src/kendo-build": {
+      "includes": ["kendo-ui/js/*"],
+      "excludes": [
+        "[kendo-ui/js/angular.min.js]",
+        "[kendo-ui/js/jquery.min.js]",
+        "[kendo-ui/js/kendo.angular.min.js]",
+        "[kendo-ui/js/kendo.angular2.min.js]",
+        "[kendo-ui/js/kendo.spreadsheet.min.js]",
+        "[kendo-ui/js/kendo.all.min.js]",
+        "[kendo-ui/js/kendo.web.min.js]",
+        "[kendo-ui/js/kendo.dataviz.min.js]",
+        "[kendo-ui/js/kendo.dataviz.mobile.min.js]",
+        "[kendo-ui/js/kendo.mobile.min.js]"
+      ],
+      "options": {
+        "inject": true,
+        "minify": true,
+        "rev": false
       }
     }
   }
