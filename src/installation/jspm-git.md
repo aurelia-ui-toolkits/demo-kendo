@@ -20,10 +20,32 @@ and use the following responses to the prompts you will get:
 <br>
 
 3. Run the following command to install the PRO version of kendo and the aurelia-kendoui plugin:
-`jspm install aurelia-kendoui-plugin kendo-ui=kendo:bower-kendo-ui`
+`jspm install aurelia-kendoui-bridge kendo-ui=kendo:bower-kendo-ui`
 <br>
 
-4. Register the plugin
+4. Open `config.js` and add a couple of path mappings:
+
+  ```
+  paths: {
+    "*": "dist/*",
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*",
+    "kendo:*": "jspm_packages/kendo/*",
+    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.120/js/kendo.*.js"    <----
+  },
+  "map": {
+    "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
+    "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1",
+    "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.2",
+    "kendo-ui": "kendo:bower-kendo-ui@2016.1.120",
+    "jquery": "github:components/jquery@2.1.4",             <----
+    "jquery.min": "github:components/jquery@2.1.4"          <----
+  }
+  ```
+
+  **Note:** you may have to update the version of Kendo when adding these mappings. Improvements are tracked [here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/272)
+
+5. Register the plugin
 Now we're going to register the plugin with Aurelia in your "main.js" or equivalent. The configuration function will be passed a builder object that you can use to configure which KendoUI controls you wish to use. You can use all controls in KendoUI Pro by calling the "pro()" method
 <br>
     ```
@@ -31,13 +53,13 @@ Now we're going to register the plugin with Aurelia in your "main.js" or equival
       aurelia.use
         .standardConfiguration()
         .developmentLogging()
-        .plugin('aurelia-kendoui-plugin', (kendo) => kendo.pro());
+        .plugin('aurelia-kendoui-bridge', (kendo) => kendo.pro());
 
       aurelia.start().then(a => a.setRoot());
     }
     ```
 <br>
-5. Now let's open up "app.html" and load KendoUI's CSS files
+6. Now let's open up "app.html" and load KendoUI's CSS files
 
     ```
     <require from="kendo-ui/styles/kendo.common.core.min.css!"></require>
@@ -46,3 +68,5 @@ Now we're going to register the plugin with Aurelia in your "main.js" or equival
 <br>
 ### You are done!
 It is now possible to drop some custom-elements into your DOM. See the other pages on this website for detailed information on how to do this.
+
+**We recommend that you read [these instructions](#/help/docs/app_developers_tutorials/7._what_you_need_to_know) in order to get started**

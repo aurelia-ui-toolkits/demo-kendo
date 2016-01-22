@@ -3,8 +3,10 @@
 ### 2. Setup
 <br>
 
-Most people like explanations that are done in the context of doing what is just being explained - so let's do something very simple as the first step in showing how to use KendoUI bridge to add several interesting pages rendering KendoUI controls to the well known application: **Aurelia Skeleton Navigation**, a starter kit for building a standard navigation-style app with Aurelia. Get it from **[here](https://github.com/aurelia/skeleton-navigation)** and use the Download ZIP method so we do not have to deal with Git issues in this simple context. After downloading this application, extract its content into the folder conveniently named `skeleton-navigation-kendo` and use the instructions to build and run this app. Specifically, assuming that you already have the NodeJS, jspm and gulp installed, this application should be running after you execute
+Most people like explanations that are done in the context of doing what is just being explained - so let's do something very simple as the first step in showing how to use KendoUI bridge to add several interesting pages rendering KendoUI controls to the well known application: **Aurelia Skeleton Navigation**, a starter kit for building a standard navigation-style app with Aurelia.
+<br>
 
+Get it from **[here](https://github.com/aurelia/skeleton-navigation)** and use the Download ZIP method so we do not have to deal with Git issues in this simple context. After downloading this application, extract its content into the folder conveniently named `skeleton-navigation-kendo` and use the instructions to build and run this app. Specifically, assuming that you already have the NodeJS, jspm and gulp installed, this application should be running after you execute
 <br>
 
 ```
@@ -34,15 +36,7 @@ Now, we want to add several (four) additional pages to this application that wou
 
 * * *
 
-At this point, while following the series of steps described next, it is assumed that you have the KendoUI package already installed on your computer as described in the HAVING KENDOUI ALREADY: VENDORS type of installation (Image 3 below):
-<br>
-<br>
-
-<p align=center>
-  <img src="http://i.imgur.com/GAWgTsM.png"></img>
- <br><br>
- Image 3
-</p>
+At this point, while following the series of steps described next, it is assumed that you have the KendoUI package already installed on your computer as described in the HAVING KENDOUI ALREADY: VENDORS type of installation, mentioned [here](#/installation/vendors).
 
 <br>
 
@@ -56,7 +50,7 @@ export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
-    .plugin('aurelia-kendoui-plugin', (kendo) => kendo.pro());
+    .plugin('aurelia-kendoui-bridge', (kendo) => kendo.pro());
 
   aurelia.start().then(a => a.setRoot());
 }
@@ -159,7 +153,7 @@ export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
-    .plugin('aurelia-kendoui-plugin', (kendo) => kendo.pro());
+    .plugin('aurelia-kendoui-bridge', (kendo) => kendo.pro());
 
   aurelia.start().then(a => a.setRoot());
 }
@@ -170,4 +164,3 @@ export function configure(aurelia) {
 * * *
 <br>
 #### Next page: [Autocomplete component](#/help/docs/app_developers_tutorials/3._autocomplete_component)
-
