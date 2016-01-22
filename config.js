@@ -571,7 +571,7 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.120/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.120/js/pako_deflate.min"
     ],
-    "app-build-3080b3339a": [
+    "app-build-ec78078c7f": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
@@ -588,6 +588,8 @@ System.config({
       "github:systemjs/plugin-css@0.1.20/css",
       "github:systemjs/plugin-json@0.1.0",
       "github:systemjs/plugin-json@0.1.0/json",
+      "github:systemjs/plugin-text@0.0.4",
+      "github:systemjs/plugin-text@0.0.4/text",
       "github:twbs/bootstrap@3.3.6",
       "github:twbs/bootstrap@3.3.6/css/bootstrap.css!github:systemjs/plugin-text@0.0.4",
       "github:twbs/bootstrap@3.3.6/js/bootstrap",
