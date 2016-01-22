@@ -3,14 +3,17 @@
     "Grid": "grid",
     "Bar Charts": "bar-charts",
     "Line Charts": "line-charts",
-    "Stock Charts": "stock"
+    "Stock Charts": "stock",
+    "TreeView": "treeview"
   },
   "Data management": {
     "Grid": "grid"
   },
   "Editors": {
     "Autocomplete": "autocomplete",
-    "Slider": "slider"
+    "Slider": "slider",
+    "DatePicker": "datepicker",
+    "NumericTextBox": "numerictextbox"
   },
   "Charts": {
     "Charts 1": {
@@ -36,7 +39,8 @@
     }
   },
   "Navigation": {
-    "Button": "button"
+    "Button": "button",
+    "Treeview": "treeview"
   },
   "Interactivity & UX": {
     "ProgressBar": "progressbar"
