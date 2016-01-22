@@ -571,7 +571,7 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.120/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.120/js/pako_deflate.min"
     ],
-    "app-build-0b04aff561": [
+    "app-build-3080b3339a": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
@@ -707,6 +707,8 @@ System.config({
       "npm:aurelia-templating-router@1.0.0-beta.1.0.5/router-view",
       "npm:aurelia-templating@1.0.0-beta.1.0.3",
       "npm:aurelia-templating@1.0.0-beta.1.0.3/aurelia-templating",
+      "npm:babel-core@5.8.35",
+      "npm:babel-core@5.8.35/browser",
       "npm:core-js@1.2.6",
       "npm:core-js@1.2.6/client/shim.min",
       "npm:core-js@1.2.6/library/core",
