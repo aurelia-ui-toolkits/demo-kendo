@@ -1,7 +1,7 @@
 System.config({
-  defaultJSExtensions: true,
-  transpiler: "babel",
-  babelOptions: {
+  "defaultJSExtensions": true,
+  "transpiler": "babel",
+  "babelOptions": {
     "optional": [
       "runtime",
       "optimisation.modules.system",
@@ -9,21 +9,19 @@ System.config({
       "es7.classProperties"
     ]
   },
-  paths: {
+  "paths": {
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "kendo:*": "jspm_packages/kendo/*",
     "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.120/js/kendo.*.js"
   },
-
-  meta: {
+  "meta": {
     "showdown/dist/showdown.js": {
       "format": "global"
     }
   },
-
-  map: {
+  "map": {
     "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.5",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.0.2",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.0.1",
@@ -453,4 +451,4 @@ System.config({
       "y18n": "npm:y18n@3.2.0"
     }
   }
-});
+})

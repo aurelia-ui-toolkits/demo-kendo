@@ -35,7 +35,7 @@ var pluginsBundle = [
   "jquery",
   "css",
   "text",
-  "core-js",
+  // "core-js",
   "json",
   "core-js/library/**/*",
   "babel",
