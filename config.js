@@ -571,7 +571,7 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.120/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.120/js/pako_deflate.min"
     ],
-    "app-build-f84e218f56": [
+    "app-build-c97fcc3f4c": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "app",
