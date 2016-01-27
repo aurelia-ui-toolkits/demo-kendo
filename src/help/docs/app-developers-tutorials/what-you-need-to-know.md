@@ -47,7 +47,7 @@ A couple of examples:
 <br>
 ### How to get to the original Kendo control
 
-There are two ways to get a reference of the original Kendo control: via `view-model.ref` and via the `k-widget` property. Both have their advantages and disadvantages.
+There are two ways to get a reference of the original Kendo control: via `view-model.ref` and via the `k-widget` property.
 
 
 #### view-model.ref
@@ -65,13 +65,30 @@ You can then use the `autocomplete` variable to communicate with the original Ke
 
 **Note**: you have to use `.two-way` binding for now, there is a bug causing it not to work with `.bind`.  
 
-**Note**: the binding system has not finished in `attached()` causing the bound variable (`autocomplete` in the sample above) to be undefined. If you need to communicate with the widget from inside the `attached` or `bind` callback, use the `view-model.ref` approach.
+**IMPORTANT**: **the binding system has not finished in `attached()` causing the bound variable (`autocomplete` in the sample above) to be undefined. If you need to communicate with the widget from inside the `attached` or `bind` callback, use either the `view-model.ref` approach or use the taskque (sample below).**
+
+#### Taskqueue
+
+	import {TaskQueue, inject} from 'aurelia-framework';
+
+	@inject(TaskQueue)
+	export class Sample {
+		constructor(taskQueue) {
+			this.taskQueue = taskQueue;
+		}
+		
+		attached() {
+			this.taskQueue.queueMicroTask(() => {
+			  this.autocomplete.enable(false);
+			});
+		}
+	}
 
 
 <br>
 <br>
 ### Current limitations
-- Inside `<au-col>` templates, using value converters results in an error: [tracked here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/268).
-- Custom attributes and elements can only be used inside `<au-col>` templates when they are registered via `globalResources`: [tracked here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/269)
+- Inside `<k-col>` templates, using value converters results in an error: [tracked here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/268).
+- Custom attributes and elements can only be used inside `<k-col>` templates when they are registered via `globalResources`: [tracked here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/269)
 - `k-widget` binding only works with explicit two-way databinding on input controls: [tracked here](https://github.com/aurelia/templating/issues/253)
 - binding of value properties is not reliable and often out of sync: [tracked here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/263) and [here](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge/issues/253). Recommendation is to use the `value()` functions to read the current value
