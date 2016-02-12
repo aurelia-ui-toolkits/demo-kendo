@@ -16,7 +16,6 @@ export class NavBar {
     this.dialog = jQuery(this.themeSelector).kendoWindow({
       width: '800px',
       title: 'Themes',
-      visible: false,
       actions: [
         'Pin',
         'Minimize',
