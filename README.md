@@ -21,16 +21,7 @@
 ### How to deploy from samples
 1. remove the `src`, `styles` and `images` folder from the `demo-kendo` repository
 2. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, and `images` folder over to `demo-kendo`
-3. `npm install`
-4. `jspm registry create kendo jspm-git`
- 1. base URL: **https://bower.telerik.com**
- 2. Set advanced configurations? **yes**
- 3. Would you like to use the default git repository suffix (.git)? **yes**
- 4. Disable shallow git clones? **no**
- 5. Enable authentication? **yes**
- 6. Enter your Telerik credentials
-5. install any new dependencies of the `sample` app in `demo-kendo`
-6. `jspm install` or `jspm update`
-7. run `gulp watch` and verify that everything runs correctly, and that there are no errors in the console
-8. `gulp deploy`
-9. **push changes to the github repo**
+3. update the plugin: `jspm install aurelia-kendoui-bridge`
+4. run `gulp watch` and verify that everything runs correctly, and that there are no errors in the console
+5. `gulp deploy`
+6. **push changes to the github repo**
