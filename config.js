@@ -570,7 +570,7 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.118/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.118/js/pako_deflate.min"
     ],
-    "app-build-3d1f4dbed6": [
+    "app-build-aad97aae89": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
