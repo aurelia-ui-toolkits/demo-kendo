@@ -33,6 +33,7 @@ System.config({
     "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.1",
     "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.1.4",
     "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.1.1",
+    "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.1.1",
     "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.1.1",
     "babel": "npm:babel-core@5.8.35",
     "babel-runtime": "npm:babel-runtime@5.8.35",
@@ -454,7 +455,6 @@ System.config({
     "kendo-build": [
       "github:components/jquery@2.1.4",
       "github:components/jquery@2.1.4/jquery",
-      "kendo.aspnetmvc.min",
       "kendo.autocomplete.min",
       "kendo.binder.min",
       "kendo.button.min",
@@ -570,7 +570,7 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.118/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.118/js/pako_deflate.min"
     ],
-    "app-build-aad97aae89": [
+    "app-build-591d67af8e": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
