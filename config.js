@@ -14,7 +14,7 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "kendo:*": "jspm_packages/kendo/*",
-    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.217/js/kendo.*.js"
+    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.226+SP1/js/kendo.*.js"
   },
   "meta": {
     "showdown/dist/showdown.js": {
@@ -44,9 +44,9 @@ System.config({
     "font-awesome": "npm:font-awesome@4.5.0",
     "google/code-prettify": "github:google/code-prettify@master",
     "jquery": "github:components/jquery@2.1.4",
-    "jquery.min": "github:components/jquery@2.14",
+    "jquery.min": "github:components/jquery@2.1.4",
     "json": "github:systemjs/plugin-json@0.1.0",
-    "kendo-ui": "kendo:bower-kendo-ui@2016.1.217",
+    "kendo-ui": "kendo:bower-kendo-ui@2016.1.226+SP1",
     "prism": "github:PrismJS/prism@1.3.0",
     "showdown": "github:showdownjs/showdown@1.3.0",
     "showdown-prettify": "npm:showdown-prettify@1.3.0",
@@ -511,8 +511,8 @@ System.config({
       "kendo.virtuallist.min",
       "kendo.webcomponents.min",
       "kendo.window.min",
-      "kendo:bower-kendo-ui@2016.1.217/js/jszip.min",
-      "kendo:bower-kendo-ui@2016.1.217/js/pako_deflate.min"
+      "kendo:bower-kendo-ui@2016.1.226+SP1/js/jszip.min",
+      "kendo:bower-kendo-ui@2016.1.226+SP1/js/pako_deflate.min"
     ],
     "app-build-2c36a4999c": [
       "about/about",
