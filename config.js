@@ -14,7 +14,7 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "kendo:*": "jspm_packages/kendo/*",
-    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.118/js/kendo.*.js"
+    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.217/js/kendo.*.js"
   },
   "meta": {
     "showdown/dist/showdown.js": {
@@ -44,9 +44,9 @@ System.config({
     "font-awesome": "npm:font-awesome@4.5.0",
     "google/code-prettify": "github:google/code-prettify@master",
     "jquery": "github:components/jquery@2.1.4",
-    "jquery.min": "github:components/jquery@2.1.4",
+    "jquery.min": "github:components/jquery@2.14",
     "json": "github:systemjs/plugin-json@0.1.0",
-    "kendo-ui": "kendo:bower-kendo-ui@2016.1.118",
+    "kendo-ui": "kendo:bower-kendo-ui@2016.1.217",
     "prism": "github:PrismJS/prism@1.3.0",
     "showdown": "github:showdownjs/showdown@1.3.0",
     "showdown-prettify": "npm:showdown-prettify@1.3.0",
@@ -93,7 +93,7 @@ System.config({
       "util": "npm:util@0.10.3"
     },
     "github:twbs/bootstrap@3.3.6": {
-      "jquery": "github:components/jquery@2.2.1"
+      "jquery": "github:components/jquery@2.1.4"
     },
     "npm:amdefine@1.0.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -398,6 +398,7 @@ System.config({
     "kendo-build": [
       "github:components/jquery@2.1.4",
       "github:components/jquery@2.1.4/jquery",
+      "kendo.aspnetmvc.min",
       "kendo.autocomplete.min",
       "kendo.binder.min",
       "kendo.button.min",
@@ -510,10 +511,10 @@ System.config({
       "kendo.virtuallist.min",
       "kendo.webcomponents.min",
       "kendo.window.min",
-      "kendo:bower-kendo-ui@2016.1.118/js/jszip.min",
-      "kendo:bower-kendo-ui@2016.1.118/js/pako_deflate.min"
+      "kendo:bower-kendo-ui@2016.1.217/js/jszip.min",
+      "kendo:bower-kendo-ui@2016.1.217/js/pako_deflate.min"
     ],
-    "app-build-e9f3113d40": [
+    "app-build-2c36a4999c": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
@@ -525,8 +526,6 @@ System.config({
       "github:PrismJS/prism@1.3.0/prism",
       "github:components/jquery@2.1.4",
       "github:components/jquery@2.1.4/jquery",
-      "github:components/jquery@2.2.1",
-      "github:components/jquery@2.2.1/jquery",
       "github:jspm/nodelibs-process@0.1.2",
       "github:jspm/nodelibs-process@0.1.2/index",
       "github:showdownjs/showdown@1.3.0",
