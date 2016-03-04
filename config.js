@@ -43,8 +43,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "font-awesome": "npm:font-awesome@4.5.0",
     "google/code-prettify": "github:google/code-prettify@master",
-    "jquery": "github:components/jquery@2.2.1",
-    "jquery.min": "github:components/jquery@2.2.1",
+    "jquery": "github:components/jquery@2.1.4",
+    "jquery.min": "github:components/jquery@2.1.4",
     "json": "github:systemjs/plugin-json@0.1.0",
     "kendo-ui": "kendo:bower-kendo-ui@2016.1.118",
     "prism": "github:PrismJS/prism@1.3.0",
@@ -396,8 +396,8 @@ System.config({
   },
   "bundles": {
     "kendo-build": [
-      "github:components/jquery@2.2.1",
-      "github:components/jquery@2.2.1/jquery",
+      "github:components/jquery@2.1.4",
+      "github:components/jquery@2.1.4/jquery",
       "kendo.autocomplete.min",
       "kendo.binder.min",
       "kendo.button.min",
@@ -513,7 +513,7 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.118/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.118/js/pako_deflate.min"
     ],
-    "app-build-31db20f5e1": [
+    "app-build-e9f3113d40": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
@@ -523,6 +523,8 @@ System.config({
       "app.html!github:systemjs/plugin-text@0.0.4",
       "github:PrismJS/prism@1.3.0",
       "github:PrismJS/prism@1.3.0/prism",
+      "github:components/jquery@2.1.4",
+      "github:components/jquery@2.1.4/jquery",
       "github:components/jquery@2.2.1",
       "github:components/jquery@2.2.1/jquery",
       "github:jspm/nodelibs-process@0.1.2",
