@@ -19,8 +19,8 @@
 1. update the [about page](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-plugin/blob/master/sample/src/about/about.html#L93-L203) with the current status of control development
 
 ### How to deploy from samples
-1. remove the `src`, `styles` and `images` folder from the `demo-kendo` repository
-2. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, and `images` folder over to `demo-kendo`
+1. remove the `src`, `styles`, `images` and `doc` folder from the `demo-kendo` repository
+2. copy from the aurelia-kendoui-plugin/sample folder, the `src`, `styles`, `images` and `doc` folder over to `demo-kendo`
 3. update the plugin: `jspm install aurelia-kendoui-bridge`
 4. run `gulp watch` and verify that everything runs correctly, and that there are no errors in the console
 5. `gulp deploy`
