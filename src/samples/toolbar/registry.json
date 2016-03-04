@@ -4,7 +4,11 @@
     "basic-use": {
       "route": ["", "basic-use"]
     },
-    "customizing-with-editors": {},
-    "api": {}
+    "resize": {},
+    "events": {},
+    "api": {},
+    "integration-with-editors": {
+      "files": ["html", "js", "css"]
+    }
   }
 }
