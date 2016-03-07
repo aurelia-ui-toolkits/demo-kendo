@@ -28,7 +28,7 @@ var aureliaBundle = [
 
 var pluginsBundle = [
   "[aurelia-kendoui-bridge]",
-  "[aurelia-kendoui-bridge/**/*]",
+  "[aurelia-kendoui-bridge/**/*.js]",
   "aurelia-kendoui-bridge/**/*.html!text",
   "showdown",
   "prism",
