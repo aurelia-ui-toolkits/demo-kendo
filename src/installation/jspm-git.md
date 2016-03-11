@@ -31,13 +31,13 @@ and use the following responses to the prompts you will get:
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "kendo:*": "jspm_packages/kendo/*",
-    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.120/js/kendo.*.js"    <----
+    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.226+SP1/js/kendo.*.js"    <----
   },
   "map": {
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.0.2",
-    "kendo-ui": "kendo:bower-kendo-ui@2016.1.120",
+    "kendo-ui": "kendo:bower-kendo-ui@2016.1.226+SP1",
     "jquery": "github:components/jquery@2.1.4",             <----
     "jquery.min": "github:components/jquery@2.1.4"          <----
   }
@@ -70,3 +70,5 @@ Now we're going to register the plugin with Aurelia in your "main.js" or equival
 It is now possible to drop some custom-elements into your DOM. See the other pages on this website for detailed information on how to do this.
 
 **We recommend that you read [these instructions](#/help/docs/app_developers_tutorials/7._what_you_need_to_know) in order to get started**
+
+**Loading all wrappers too slow? Lazy loading of wrappers is also possible: [instructions](#/help/docs/app_developers_notes/3._lazy_loading_wrappers)**

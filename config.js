@@ -28,7 +28,7 @@ System.config({
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.0-beta.1.1.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.1.4",
     "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1.1.2",
-    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@0.5.0",
+    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@0.6.0",
     "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.1.1",
     "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.2",
     "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.1.6",
@@ -152,10 +152,9 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.1.1",
       "aurelia-path": "npm:aurelia-path@1.0.0-beta.1.1.1"
     },
-    "npm:aurelia-kendoui-bridge@0.5.0": {
+    "npm:aurelia-kendoui-bridge@0.6.0": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.2.2",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.1.5",
-      "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.2",
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.1.6",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.1.1",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.1.4",
