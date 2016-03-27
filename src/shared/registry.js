@@ -6,12 +6,13 @@ export class Registry {
 
       let map = [];
 
-      for (let _sample of Object.keys(registry.samples)) {
+      let samples = Object.keys(registry.samples);
+      samples.forEach(_sample => {
         let sample = registry.samples[_sample];
 
         sample.path = `samples/${control}/${_sample}`;
         sample.route = sample.route || _sample;
-        sample.namespace = registry.namespace;
+        sample.documentation = sample.documentation || registry.documentation;
         sample.control = control;
         sample.sample = _sample;
         sample.title = sample.title || this.getTitleFromRoute(_sample);
@@ -38,7 +39,7 @@ export class Registry {
           route: sample.route,
           sample: sample
         });
-      }
+      });
 
       config.map(map);
     });
