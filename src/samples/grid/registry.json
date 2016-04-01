@@ -20,6 +20,8 @@
     "inline-editing": {},
     "popup-editing": {},
     "working-offline": {},
+    "detail-template": {},
+    "toolbar-template": {},
     "advanced": {}
   }
 }
