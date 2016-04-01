@@ -1,8 +1,0 @@
-{
-  "title": "ValueConverters",
-  "samples": {
-    "basic-use": {
-      "route": ["", "basic-use"]
-    }
-  }
-}
