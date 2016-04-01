@@ -1,0 +1,20 @@
+{
+  "title": "Scheduler",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/scheduler",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js", "css"]
+    },
+    "api": {},
+    "events": {},
+    "export-to-pdf": {
+      "title": "Export to PDF"
+    },
+    "horizontal-grouping": {},
+    "timeline-view": {},
+    "templates": {},
+    "restrictions": {},
+    "event-move-and-resize": {}
+  }
+}

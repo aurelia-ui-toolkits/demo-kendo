@@ -512,8 +512,14 @@ System.config({
       "kendo:bower-kendo-ui@2016.1.226+SP1/js/jszip.min",
       "kendo:bower-kendo-ui@2016.1.226+SP1/js/pako_deflate.min"
     ],
-    "app-build-06097b4b80": [
-      "config-builder",
+    "app-build-6bd436e65e": [
+      "about/about",
+      "about/about.html!github:systemjs/plugin-text@0.0.4",
+      "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
+      "about/kendo-bridge-viewmodel",
+      "about/kendo-standard-init.html!github:systemjs/plugin-text@0.0.4",
+      "app",
+      "app.html!github:systemjs/plugin-text@0.0.4",
       "github:PrismJS/prism@1.3.0",
       "github:PrismJS/prism@1.3.0/prism",
       "github:components/jquery@2.1.4",
@@ -531,7 +537,13 @@ System.config({
       "github:twbs/bootstrap@3.3.6",
       "github:twbs/bootstrap@3.3.6/css/bootstrap.css!github:systemjs/plugin-text@0.0.4",
       "github:twbs/bootstrap@3.3.6/js/bootstrap",
-      "index",
+      "installation/index",
+      "installation/index.html!github:systemjs/plugin-text@0.0.4",
+      "installation/instructions",
+      "installation/instructions.html!github:systemjs/plugin-text@0.0.4",
+      "main",
+      "nav-bar",
+      "nav-bar.html!github:systemjs/plugin-text@0.0.4",
       "npm:aurelia-binding@1.0.0-beta.1.3.1",
       "npm:aurelia-binding@1.0.0-beta.1.3.1/aurelia-binding",
       "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0",
@@ -1392,7 +1404,22 @@ System.config({
       "npm:showdown-prettify@1.3.0",
       "npm:showdown-prettify@1.3.0/dist/showdown-prettify",
       "npm:showdown@1.3.0",
-      "npm:showdown@1.3.0/dist/showdown"
+      "npm:showdown@1.3.0/dist/showdown",
+      "sample-runner",
+      "sample-runner.html!github:systemjs/plugin-text@0.0.4",
+      "settings",
+      "shared/au-code",
+      "shared/collapse-panel",
+      "shared/collapse-panel.html!github:systemjs/plugin-text@0.0.4",
+      "shared/logger",
+      "shared/logger.html!github:systemjs/plugin-text@0.0.4",
+      "shared/markdown",
+      "shared/registry",
+      "shared/showcase.html!github:systemjs/plugin-text@0.0.4",
+      "shared/signalr",
+      "shared/theme-manager",
+      "theme-selector/theme-selector",
+      "theme-selector/theme-selector.html!github:systemjs/plugin-text@0.0.4"
     ]
   }
 })

@@ -1,0 +1,19 @@
+{
+  "title": "ListView",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/listview",
+  "samples": {
+    "basic-use": {
+      "default": true,
+      "files": ["html", "js", "css"]
+    },
+    "binding-to-remote-data": {
+      "files": ["html", "js", "css"]
+    },
+    "editing": {
+      "files": ["html", "js", "css"]
+    },
+    "selection": {
+      "files": ["html", "js", "css"]
+    },
+  }
+}

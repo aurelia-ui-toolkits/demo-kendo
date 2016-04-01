@@ -1,0 +1,26 @@
+{
+  "title": "Pivot Grid",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/pivotgrid",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js", "css"]
+    },
+    "kpi-measures": {
+      "files": ["html", "js", "css"]
+    },
+    "remote-binding": {
+      "files": ["html", "js", "css"]
+    },
+    "local-binding": {
+      "files": ["html", "js", "css"]
+    },
+    "templates": {},
+    "export-to-excel": {
+      "files": ["html", "js", "css"]
+    },
+    "export-to-pdf": {
+      "files": ["html", "js", "css"]
+    }
+  }
+}

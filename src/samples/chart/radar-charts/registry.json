@@ -1,0 +1,16 @@
+{
+  "title": "Radar charts",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
+  "samples": {
+    "radar-line": {
+      "route": ["", "radar-line"]
+    },
+    "binding-to-local-data": {
+      "files": ["html", "js", "json"]
+    },
+    "binding-to-remote-data": {},
+    "binding-to-grouped-data": {},
+    "radar-area": {},
+    "smooth-radar-line": {},
+  }
+}

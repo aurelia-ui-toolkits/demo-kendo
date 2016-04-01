@@ -1,0 +1,21 @@
+{
+  "title": "Scatter charts",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js"]
+    },
+    "scatter-line-chart": {},
+    "smooth-scatter-line": {},
+    "binding-to-local-data": {
+      "files": ["html", "js", "json"]
+    },
+    "binding-to-remote-data": {},
+    "binding-to-grouped-data": {},
+    "custom-pan-and-zoom": {},
+    "date-axis": {},
+    "multi-axis": {},
+    "pan-and-zoom": {}
+  }
+}

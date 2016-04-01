@@ -1,0 +1,21 @@
+{
+    "title": "TimePicker",
+    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/timepicker",
+    "samples": {
+        "basic-usage": {
+            "route": [
+                "",
+                "basic-usage"
+            ]
+        },
+        "range-selection": {},
+        "events": {},
+        "api": {
+            "files": [
+                "html",
+                "js",
+                "css"
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<template>
+  <require from="theme-selector/theme-selector"></require>
+  <ul ref="menu">
+    <li>
+        <a route-href="route: samples">Components Catalog</a>
+    </li>
+    <li>
+        <a route-href="route: about">About</a>
+    </li>
+    <li>
+        <a route-href="route: installation">Installation</a>
+    </li>
+    <li>
+        <a route-href="route: project-status">Catalog index</a>
+    </li>
+    <li click.delegate="showThemeDialog()">
+        <a href="#">Theme</a>
+    </li>
+    <li>
+        <a route-href="route: help">Help</a>
+    </li>
+  </ul>
+
+  <theme-selector ref="themeSelector"></theme-selector>
+</template>

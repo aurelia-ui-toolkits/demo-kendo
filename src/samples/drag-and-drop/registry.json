@@ -1,0 +1,19 @@
+{
+  "title": "Drag and Drop",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/draggable",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js", "css"]
+    },
+    "container": {
+      "files": ["html", "js", "css"]
+    },
+    "area": {
+      "files": ["html", "js", "css"]
+    },
+    "events": {
+      "files": ["html", "js", "css"]
+    }
+  }
+}

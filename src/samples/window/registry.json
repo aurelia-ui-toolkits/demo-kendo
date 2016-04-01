@@ -1,0 +1,20 @@
+{
+  "title": "Window",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/window",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js", "css"]
+    },
+    "customizing-actions": {
+      "files": ["html", "js", "css"]
+    },
+    "ajax": {
+      "files": ["html", "js", "css"]
+    },
+    "events": {
+      "files": ["html", "js", "css"]
+    },
+    "api": {}
+  }
+}

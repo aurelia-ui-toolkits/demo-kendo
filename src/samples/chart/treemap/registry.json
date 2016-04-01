@@ -1,0 +1,10 @@
+{
+  "title": "Treemap",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/treemap",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "events": {}
+  }
+}

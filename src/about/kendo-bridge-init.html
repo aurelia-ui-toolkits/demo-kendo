@@ -1,0 +1,18 @@
+<template>
+  <ak-grid k-data-source.bind="datasource"
+          k-pageable.bind="{ refresh: true, pageSizes: true, buttonCount: 10 }"
+          k-sortable.bind="true">
+    <!-- Column definitions in HTML -->
+    <ak-col k-title="Contact Name" k-field="ContactName">
+      <ak-template>
+        <!-- Column templates directly in your markup - where they belong! -->
+        <div class="customer-photo" style="background-image: url(../content/web/Customers/${CustomerID}.jpg);"></div>
+        <!-- Use Aurelia binding features like interpolation, value converters and binding behaviors -->
+        <div class="customer-name">${ContactName}</div>
+      </ak-template>
+    </ak-col>
+    <ak-col k-title="Contact Title" k-field="ContactTitle"></ak-col>
+    <ak-col k-title="Company Name" k-field="CompanyName"></ak-col>
+    <ak-col k-field="Country"></ak-col>
+  </ak-grid>
+</template>

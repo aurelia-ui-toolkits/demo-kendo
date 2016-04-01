@@ -1,0 +1,16 @@
+{
+  "title": "Upload",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/upload",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"]
+    },
+    "asynchronous-upload": {},
+    "events": {},
+    "api": {},
+    "templates": {
+      "files": ["html", "js", "css"]
+    },
+    "initial-files": {}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Validator",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/validator",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js", "css"]
+    },
+    "custom-validation": {
+      "files": ["html", "js", "css"]
+    }
+  }
+}

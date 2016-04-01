@@ -1,0 +1,12 @@
+{
+  "title": "Sparkline",
+  "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/sparkline",
+  "samples": {
+    "basic-use": {
+      "route": ["", "basic-use"],
+      "files": ["html", "js", "css"]
+    },
+    "aurelia": {},
+    "remote-data": {}
+  }
+}

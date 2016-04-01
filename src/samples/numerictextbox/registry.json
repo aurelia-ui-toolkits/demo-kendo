@@ -1,0 +1,35 @@
+{
+    "title": "Numeric textbox",
+    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/numerictextbox",
+    "samples": {
+        "basic-usage": {
+            "route": [
+                "",
+                "basic-usage"
+            ],
+            "files": [
+                "html",
+                "js",
+                "css"
+            ]
+        },
+        "events": {
+            "route": [
+                "events"
+            ],
+            "files": [
+                "html",
+                "js"
+            ]
+        },
+        "api": {
+            "route": [
+                "api"
+            ],
+            "files": [
+                "html",
+                "js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "title": "DatePicker",
+    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/datepicker",
+    "samples": {
+        "basic-usage": {
+            "route": [
+                "",
+                "basic-usage"
+            ],
+            "files": [
+                "html",
+                "js"
+            ]
+        },
+        "range-selection": {
+            "route": [
+                "range-selection"
+            ],
+            "files": [
+                "html",
+                "js"
+            ]
+        },
+        "events": {
+            "route": [
+                "events"
+            ],
+            "files": [
+                "html",
+                "js"
+            ]
+        },
+        "api": {
+            "route": [
+                "api"
+            ],
+            "files": [
+                "html",
+                "js",
+                "css"
+            ]
+        },
+        "value-binding": {}
+    }
+}
