@@ -43,8 +43,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "font-awesome": "npm:font-awesome@4.6.1",
     "google/code-prettify": "github:google/code-prettify@master",
-    "jquery": "github:components/jquery@2.1.4",
-    "jquery.min": "github:components/jquery@2.1.4",
+    "jquery": "npm:jquery@2.2.3",
+    "jquery.min": "npm:jquery@2.2.3",
     "json": "github:systemjs/plugin-json@0.1.1",
     "kendo-ui": "kendo:bower-kendo-ui@2016.1.226+SP1",
     "prism": "github:PrismJS/prism@1.3.0",
@@ -394,8 +394,6 @@ System.config({
   },
   "bundles": {
     "kendo-build": [
-      "github:components/jquery@2.1.4",
-      "github:components/jquery@2.1.4/jquery",
       "kendo.aspnetmvc.min",
       "kendo.autocomplete.min",
       "kendo.binder.min",
@@ -510,9 +508,11 @@ System.config({
       "kendo.webcomponents.min",
       "kendo.window.min",
       "kendo:bower-kendo-ui@2016.1.226+SP1/js/jszip.min",
-      "kendo:bower-kendo-ui@2016.1.226+SP1/js/pako_deflate.min"
+      "kendo:bower-kendo-ui@2016.1.226+SP1/js/pako_deflate.min",
+      "npm:jquery@2.2.3",
+      "npm:jquery@2.2.3/dist/jquery"
     ],
-    "app-build-c75bdc5cc3": [
+    "app-build-e2d63c67f3": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
@@ -522,8 +522,6 @@ System.config({
       "app.html!github:systemjs/plugin-text@0.0.4",
       "github:PrismJS/prism@1.3.0",
       "github:PrismJS/prism@1.3.0/prism",
-      "github:components/jquery@2.1.4",
-      "github:components/jquery@2.1.4/jquery",
       "github:jspm/nodelibs-process@0.1.2",
       "github:jspm/nodelibs-process@0.1.2/index",
       "github:showdownjs/showdown@1.3.0",
