@@ -28,7 +28,7 @@ System.config({
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.0-beta.1.2.0",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.2.2",
     "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1.2.0",
-    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@0.7.1",
+    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@0.8.1",
     "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",
     "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.2.0",
     "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
@@ -43,8 +43,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "font-awesome": "npm:font-awesome@4.6.1",
     "google/code-prettify": "github:google/code-prettify@master",
-    "jquery": "github:components/jquery@2.1.4",
-    "jquery.min": "github:components/jquery@2.1.4",
+    "jquery": "npm:jquery@2.2.3",
+    "jquery.min": "npm:jquery@2.2.3",
     "json": "github:systemjs/plugin-json@0.1.1",
     "kendo-ui": "kendo:bower-kendo-ui@2016.1.226+SP1",
     "prism": "github:PrismJS/prism@1.3.0",
@@ -152,14 +152,14 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.2.0",
       "aurelia-path": "npm:aurelia-path@1.0.0-beta.1.2.1"
     },
-    "npm:aurelia-kendoui-bridge@0.7.1": {
+    "npm:aurelia-kendoui-bridge@0.8.1": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.3.2",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.2.0",
       "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.2.0",
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.2",
-      "jquery": "github:components/jquery@2.1.4"
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.2"
     },
     "npm:aurelia-loader-default@1.0.0-beta.1.2.1": {
       "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",
