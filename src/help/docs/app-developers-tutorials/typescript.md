@@ -454,7 +454,7 @@ export class BasicUse {
 
 **grid.css**
 ```
-#grid .customer-photo {
+.customer-photo {
     display: inline-block;
     width: 32px;
     height: 32px;
@@ -467,7 +467,7 @@ export class BasicUse {
     margin-left: 5px;
 }
 
-#grid .customer-name {
+.customer-name {
     display: inline-block;
     vertical-align: middle;
     line-height: 32px;
@@ -486,7 +486,7 @@ export class BasicUse {
 ```
 jspm install aurelia-kendoui-bridge
 ...
-ok   Installed aurelia-kendoui-bridge as npm:aurelia-kendoui-bridge@^0.6.0 (0.6.0)
+ok   Installed aurelia-kendoui-bridge as npm:aurelia-kendoui-bridge@^0.8.1 (0.8.1)
 ...
 ok   Install complete.
 ```
