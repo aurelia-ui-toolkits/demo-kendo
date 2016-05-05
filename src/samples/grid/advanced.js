@@ -15,4 +15,8 @@ export class Advanced {
   showAlert(message) {
     alert(message);
   }
+
+  log(obj) {
+    console.log(obj); // eslint-disable-line no-console
+  }
 }
