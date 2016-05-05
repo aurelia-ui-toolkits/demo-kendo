@@ -160,8 +160,7 @@ System.config({
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.4",
-      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.3",
-      "jquery": "github:components/jquery@2.2.1"
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.3"
     },
     "npm:aurelia-loader-default@1.0.0-beta.1.2.1": {
       "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",
@@ -514,7 +513,7 @@ System.config({
       "npm:jquery@2.2.3",
       "npm:jquery@2.2.3/dist/jquery"
     ],
-    "app-build-5298343202": [
+    "app-build-90b34af4f8": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4",
