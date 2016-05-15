@@ -66,7 +66,7 @@
       "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.0-beta.1",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.0.8",
       "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-beta.1",
-      "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@^0.9.0",
+      "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@^0.10.1",
       "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1.0.1",
       "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1",
       "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1",
@@ -91,13 +91,6 @@
       "babel-runtime": "npm:babel-runtime@^5.6.4",
       "clean-css": "npm:clean-css@^3.4.8",
       "core-js": "npm:core-js@^2.1.0"
-    },
-    "overrides": {
-      "npm:aurelia-kendoui-bridge@0.9.0": {
-        "map": {
-          "jquery": "jquery"
-        }
-      }
     }
   }
 }
