@@ -522,7 +522,7 @@ System.config({
       "npm:jquery@2.2.3.js",
       "npm:jquery@2.2.3/dist/jquery.js"
     ],
-    "app-build-8c92d332df.js": [
+    "app-build-a66670138f.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
