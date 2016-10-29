@@ -9,14 +9,14 @@
   ],
   "homepage": "https://github.com/aurelia-ui-toolkits",
   "bugs": {
-    "url": "https://github.com/aurelia-ui-toolkits/demo-kendo-beta/issues"
+    "url": "https://github.com/aurelia-ui-toolkits/demo-kendo/issues"
   },
   "license": "CC0-1.0",
   "author": "Aurelia-UI-Toolkits",
   "main": "dist/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aurelia-ui-toolkits/demo-kendo-beta"
+    "url": "https://github.com/aurelia-ui-toolkits/demo-kendo"
   },
   "scripts": {
     "test": "gulp test",
@@ -94,5 +94,8 @@
         "dependencies": {}
       }
     }
+  },
+  "dependencies": {
+    "aurelia-bundler": "^0.4.0"
   }
 }
