@@ -3,7 +3,7 @@ export class App {
     config.title = 'Kendo UI Samples';
 
     config.map([
-      { name: 'about',            route: 'about',             moduleId: 'about/about',                 title: 'About123' },
+      { name: 'about',            route: 'about',             moduleId: 'about/about',                 title: 'About' },
       { name: 'catalog-index',    route: 'catalog-index',     moduleId: 'catalog-index/controls',      title: 'Catalog-index'},
       { name: 'documentation',    route: 'documentation',     moduleId: 'documentation/documentation', title: 'Documentation'},
       { name: 'help',             route: 'help',              moduleId: 'help/index',                  title: 'Help' },
