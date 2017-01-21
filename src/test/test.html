@@ -1,0 +1,9 @@
+<template>
+  <ak-grid k-data-source.bind="[{},{}]" repeat.for="a of b">
+    <ak-col>
+      <ak-template>
+        <button click.delegate="hello()">Hello</button>
+      </ak-template>
+    </ak-col>
+  </ak-grid>
+</template>
