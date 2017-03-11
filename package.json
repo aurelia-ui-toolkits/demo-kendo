@@ -66,7 +66,7 @@
       "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.0-beta.1",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.0.8",
       "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-beta.1",
-      "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@^1.2.0",
+      "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@^1.2.1",
       "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1.0.1",
       "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1",
       "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1",
@@ -84,10 +84,10 @@
       "text": "github:systemjs/plugin-text@^0.0.4"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.6.4",
-      "babel-runtime": "npm:babel-runtime@^5.6.4",
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
       "clean-css": "npm:clean-css@^3.4.8",
-      "core-js": "npm:core-js@^2.1.0"
+      "core-js": "npm:core-js@^1.1.4"
     },
     "overrides": {
       "github:twbs/bootstrap@3.3.6": {

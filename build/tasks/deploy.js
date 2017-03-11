@@ -16,8 +16,12 @@ gulp.task('deploy-gh-pages', function() {
     './jspm_packages/npm/font-awesome@*/**/*',
     './jspm_packages/npm/font-awesome*.js',
     './jspm_packages/github/PrismJS/prism*/themes/*.css',
-    './jspm_packages/github/google/code-prettify*/loader/**/*',
+    './jspm_packages/github/google/code-prettify*/**/*',
     './jspm_packages/npm/babel-runtime*/**/*',
+    "./jspm_packages/npm/showdown-prettify@1.3.0.js",
+    "./jspm_packages/npm/showdown-prettify@1.3.0/**/*",,
+    "./jspm_packages/npm/showdown@1.6.4.js",
+    "./jspm_packages/npm/showdown@1.6.4/**/*",
     './index.html',
     './favicon.ico',
     './config.js'
