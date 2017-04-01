@@ -520,7 +520,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-ed69b1d89f.js": [
+    "app-build-ead9cd4818.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
