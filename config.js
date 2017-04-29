@@ -29,13 +29,13 @@ System.config({
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
     "aurelia-framework": "npm:aurelia-framework@1.1.2",
     "aurelia-http-client": "npm:aurelia-http-client@1.1.1",
-    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@1.5.0",
+    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@1.5.2",
     "aurelia-loader": "npm:aurelia-loader@1.0.0",
     "aurelia-logging": "npm:aurelia-logging@1.3.1",
     "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
     "aurelia-pal": "npm:aurelia-pal@1.3.0",
     "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-    "aurelia-templating": "npm:aurelia-templating@1.4.1",
+    "aurelia-templating": "npm:aurelia-templating@1.4.2",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "bootstrap": "github:twbs/bootstrap@3.3.6",
@@ -52,13 +52,13 @@ System.config({
     "text": "github:systemjs/plugin-text@0.0.4",
     "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0": {
       "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1"
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
-    "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.6.0"
+    "github:jspm/nodelibs-buffer@0.1.1": {
+      "buffer": "npm:buffer@5.0.6"
     },
     "github:jspm/nodelibs-constants@0.1.0": {
       "constants-browserify": "npm:constants-browserify@0.0.1"
@@ -84,7 +84,7 @@ System.config({
       "path-browserify": "npm:path-browserify@0.0.0"
     },
     "github:jspm/nodelibs-process@0.1.2": {
-      "process": "npm:process@0.11.9"
+      "process": "npm:process@0.11.10"
     },
     "github:jspm/nodelibs-stream@0.1.0": {
       "stream-browserify": "npm:stream-browserify@1.0.0"
@@ -106,7 +106,7 @@ System.config({
     },
     "npm:assert@1.4.1": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "util": "npm:util@0.10.3"
     },
@@ -127,7 +127,7 @@ System.config({
       "aurelia-pal-browser": "npm:aurelia-pal-browser@1.2.1",
       "aurelia-polyfills": "npm:aurelia-polyfills@1.2.1",
       "aurelia-router": "npm:aurelia-router@1.3.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2",
       "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0",
       "aurelia-templating-router": "npm:aurelia-templating-router@1.1.0"
@@ -148,7 +148,7 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-path": "npm:aurelia-path@1.1.1",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1"
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
     },
     "npm:aurelia-history-browser@1.0.0": {
       "aurelia-history": "npm:aurelia-history@1.0.0",
@@ -158,7 +158,7 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-path": "npm:aurelia-path@1.1.1"
     },
-    "npm:aurelia-kendoui-bridge@1.5.0": {
+    "npm:aurelia-kendoui-bridge@1.5.2": {
       "aurelia-binding": "npm:aurelia-binding@1.2.1",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
       "aurelia-logging": "npm:aurelia-logging@1.3.1",
@@ -166,7 +166,7 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-router": "npm:aurelia-router@1.3.0",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0"
     },
     "npm:aurelia-loader-default@1.0.2": {
@@ -207,7 +207,7 @@ System.config({
     "npm:aurelia-templating-binding@1.3.0": {
       "aurelia-binding": "npm:aurelia-binding@1.2.1",
       "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1"
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
     },
     "npm:aurelia-templating-resources@1.4.0": {
       "aurelia-binding": "npm:aurelia-binding@1.2.1",
@@ -218,7 +218,7 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-path": "npm:aurelia-path@1.1.1",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1"
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
     },
     "npm:aurelia-templating-router@1.1.0": {
       "aurelia-binding": "npm:aurelia-binding@1.2.1",
@@ -228,9 +228,9 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.3.0",
       "aurelia-path": "npm:aurelia-path@1.1.1",
       "aurelia-router": "npm:aurelia-router@1.3.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.1"
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
     },
-    "npm:aurelia-templating@1.4.1": {
+    "npm:aurelia-templating@1.4.2": {
       "aurelia-binding": "npm:aurelia-binding@1.2.1",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
       "aurelia-loader": "npm:aurelia-loader@1.0.0",
@@ -243,20 +243,16 @@ System.config({
     "npm:babel-runtime@5.8.38": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:buffer@3.6.0": {
-      "base64-js": "npm:base64-js@0.0.8",
-      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "ieee754": "npm:ieee754@1.1.8",
-      "isarray": "npm:isarray@1.0.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
+    "npm:buffer@5.0.6": {
+      "base64-js": "npm:base64-js@1.2.0",
+      "ieee754": "npm:ieee754@1.1.8"
     },
     "npm:builtin-modules@1.1.1": {
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:clean-css@3.4.25": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "commander": "npm:commander@2.8.1",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "http": "github:jspm/nodelibs-http@1.7.1",
@@ -291,7 +287,7 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:core-util-is@1.0.2": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0"
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1"
     },
     "npm:error-ex@1.3.1": {
       "is-arrayish": "npm:is-arrayish@0.2.1",
@@ -316,7 +312,7 @@ System.config({
     "npm:graceful-readlink@1.0.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
-    "npm:hosted-git-info@2.4.1": {
+    "npm:hosted-git-info@2.4.2": {
       "url": "github:jspm/nodelibs-url@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
@@ -345,8 +341,8 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "strip-bom": "npm:strip-bom@2.0.0"
     },
-    "npm:normalize-package-data@2.3.6": {
-      "hosted-git-info": "npm:hosted-git-info@2.4.1",
+    "npm:normalize-package-data@2.3.8": {
+      "hosted-git-info": "npm:hosted-git-info@2.4.2",
       "is-builtin-module": "npm:is-builtin-module@1.0.0",
       "semver": "npm:semver@5.3.0",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2",
@@ -383,7 +379,7 @@ System.config({
     "npm:pinkie-promise@2.0.1": {
       "pinkie": "npm:pinkie@2.0.4"
     },
-    "npm:process@0.11.9": {
+    "npm:process@0.11.10": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "vm": "github:jspm/nodelibs-vm@0.1.0"
@@ -397,12 +393,12 @@ System.config({
     },
     "npm:read-pkg@1.1.0": {
       "load-json-file": "npm:load-json-file@1.1.0",
-      "normalize-package-data": "npm:normalize-package-data@2.3.6",
+      "normalize-package-data": "npm:normalize-package-data@2.3.8",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "path-type": "npm:path-type@1.1.0"
     },
     "npm:readable-stream@1.1.14": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "core-util-is": "npm:core-util-is@1.0.2",
       "events": "github:jspm/nodelibs-events@0.1.1",
       "inherits": "npm:inherits@2.0.1",
@@ -459,13 +455,13 @@ System.config({
       "strip-ansi": "npm:strip-ansi@3.0.1"
     },
     "npm:string_decoder@0.10.31": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0"
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1"
     },
     "npm:strip-ansi@3.0.1": {
       "ansi-regex": "npm:ansi-regex@2.1.1"
     },
     "npm:strip-bom@2.0.0": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "is-utf8": "npm:is-utf8@0.2.1"
     },
     "npm:url@0.10.3": {
@@ -521,7 +517,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-72d795efe0.js": [
+    "app-build-0e9a4946c2.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
@@ -568,128 +564,128 @@ System.config({
       "npm:aurelia-history@1.0.0/aurelia-history.js",
       "npm:aurelia-http-client@1.1.1.js",
       "npm:aurelia-http-client@1.1.1/aurelia-http-client.js",
-      "npm:aurelia-kendoui-bridge@1.5.0.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/autocomplete/autocomplete.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/barcode/barcode.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/button/button.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/buttongroup/buttongroup.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/calendar/calendar.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/calendar/calendar.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/chart.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/chart.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/sparkline.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/sparkline.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/stock.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/stock.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/treemap.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/chart/treemap.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/colorpalette/colorpalette.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/colorpalette/colorpalette.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/colorpicker/colorpicker.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/combobox/combobox.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/combobox/combobox.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/bindables.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/constants.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/control-properties.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/decorators.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/notify-binding-behavior.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/observer.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/options-builder.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/template-compiler.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/template-gatherer.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/template.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/util.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/common/widget-base.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/config-builder.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/contextmenu/contextmenu.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/datepicker/datepicker.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/datetimepicker/datetimepicker.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/diagram/diagram.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/diagram/diagram.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/dialog/dialog.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/draggable/draggable.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/drop-target/drop-target-area.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/drop-target/drop-target.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/dropdownlist/dropdownlist.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/dropdownlist/dropdownlist.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/editor/editor.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/filter-menu/filter-menu.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/flatcolorpicker/flatcolorpicker.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/flatcolorpicker/flatcolorpicker.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gantt/gantt-col.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gantt/gantt-col.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gantt/gantt.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gantt/gantt.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gauges/linear-gauge.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gauges/linear-gauge.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gauges/radial-gauge.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/gauges/radial-gauge.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/col.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/col.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/grid-command.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/grid-command.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/grid-toolbar.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/grid-toolbar.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/grid.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/grid/grid.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/index.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/listview/listview.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/listview/listview.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/map/map.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/map/map.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/maskedtextbox/maskedtextbox.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/menu/menu.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/multiselect/multiselect.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/multiselect/multiselect.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/notification/notification-template.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/notification/notification.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/notification/notification.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/numerictextbox/numerictextbox.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/panelbar/panelbar.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/panelbar/panelbar.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/pdf/pdf.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/pivotgrid/pivotconfigurator.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/pivotgrid/pivotconfigurator.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/pivotgrid/pivotgrid.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/pivotgrid/pivotgrid.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/popup/popup.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/progressbar/progressbar.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/qrcode/qrcode.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/rangeslider/rangeslider.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/rangeslider/rangeslider.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/responsivepanel/responsivepanel.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/scheduler/scheduler.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/scheduler/scheduler.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/scrollview/scrollview.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/scrollview/scrollview.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/slider/slider.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/sortable/sortable.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/splitter/splitter.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/spreadsheet/spreadsheet.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/spreadsheet/spreadsheet.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/switch/switch.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/tabstrip/tabstrip.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/timepicker/timepicker.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/toolbar/toolbar-item-button.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/toolbar/toolbar-item-button.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/toolbar/toolbar-item.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/toolbar/toolbar-item.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/toolbar/toolbar.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/toolbar/toolbar.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/tooltip/tooltip.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/treelist/tree-col.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/treelist/tree-col.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/treelist/treelist.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/treelist/treelist.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/treeview/treeview.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/treeview/treeview.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/upload/upload.html!github:systemjs/plugin-text@0.0.4.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/upload/upload.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/validator/validator.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/valueconverters/valueconverters.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/version.js",
-      "npm:aurelia-kendoui-bridge@1.5.0/window/window.js",
+      "npm:aurelia-kendoui-bridge@1.5.2.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/autocomplete/autocomplete.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/barcode/barcode.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/button/button.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/buttongroup/buttongroup.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/calendar/calendar.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/calendar/calendar.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/chart.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/chart.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/sparkline.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/sparkline.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/stock.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/stock.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/treemap.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/chart/treemap.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/colorpalette/colorpalette.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/colorpalette/colorpalette.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/colorpicker/colorpicker.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/combobox/combobox.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/combobox/combobox.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/bindables.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/constants.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/control-properties.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/decorators.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/notify-binding-behavior.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/observer.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/options-builder.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/template-compiler.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/template-gatherer.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/template.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/util.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/common/widget-base.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/config-builder.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/contextmenu/contextmenu.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/datepicker/datepicker.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/datetimepicker/datetimepicker.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/diagram/diagram.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/diagram/diagram.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/dialog/dialog.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/draggable/draggable.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/drop-target/drop-target-area.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/drop-target/drop-target.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/dropdownlist/dropdownlist.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/dropdownlist/dropdownlist.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/editor/editor.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/filter-menu/filter-menu.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/flatcolorpicker/flatcolorpicker.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/flatcolorpicker/flatcolorpicker.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gantt/gantt-col.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gantt/gantt-col.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gantt/gantt.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gantt/gantt.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gauges/linear-gauge.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gauges/linear-gauge.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gauges/radial-gauge.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/gauges/radial-gauge.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/col.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/col.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/grid-command.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/grid-command.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/grid-toolbar.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/grid-toolbar.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/grid.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/grid/grid.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/index.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/listview/listview.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/listview/listview.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/map/map.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/map/map.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/maskedtextbox/maskedtextbox.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/menu/menu.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/multiselect/multiselect.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/multiselect/multiselect.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/notification/notification-template.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/notification/notification.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/notification/notification.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/numerictextbox/numerictextbox.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/panelbar/panelbar.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/panelbar/panelbar.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/pdf/pdf.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/pivotgrid/pivotconfigurator.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/pivotgrid/pivotconfigurator.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/pivotgrid/pivotgrid.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/pivotgrid/pivotgrid.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/popup/popup.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/progressbar/progressbar.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/qrcode/qrcode.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/rangeslider/rangeslider.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/rangeslider/rangeslider.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/responsivepanel/responsivepanel.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/scheduler/scheduler.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/scheduler/scheduler.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/scrollview/scrollview.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/scrollview/scrollview.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/slider/slider.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/sortable/sortable.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/splitter/splitter.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/spreadsheet/spreadsheet.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/spreadsheet/spreadsheet.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/switch/switch.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/tabstrip/tabstrip.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/timepicker/timepicker.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/toolbar/toolbar-item-button.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/toolbar/toolbar-item-button.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/toolbar/toolbar-item.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/toolbar/toolbar-item.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/toolbar/toolbar.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/toolbar/toolbar.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/tooltip/tooltip.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/treelist/tree-col.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/treelist/tree-col.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/treelist/treelist.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/treelist/treelist.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/treeview/treeview.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/treeview/treeview.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/upload/upload.html!github:systemjs/plugin-text@0.0.4.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/upload/upload.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/validator/validator.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/valueconverters/valueconverters.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/version.js",
+      "npm:aurelia-kendoui-bridge@1.5.2/window/window.js",
       "npm:aurelia-loader-default@1.0.2.js",
       "npm:aurelia-loader-default@1.0.2/aurelia-loader-default.js",
       "npm:aurelia-loader@1.0.0.js",
@@ -754,8 +750,8 @@ System.config({
       "npm:aurelia-templating-router@1.1.0/route-href.js",
       "npm:aurelia-templating-router@1.1.0/route-loader.js",
       "npm:aurelia-templating-router@1.1.0/router-view.js",
-      "npm:aurelia-templating@1.4.1.js",
-      "npm:aurelia-templating@1.4.1/aurelia-templating.js",
+      "npm:aurelia-templating@1.4.2.js",
+      "npm:aurelia-templating@1.4.2/aurelia-templating.js",
       "npm:babel-core@5.8.38.js",
       "npm:babel-core@5.8.38/browser.js",
       "npm:core-js@1.2.7/library/core.js",
@@ -1188,8 +1184,8 @@ System.config({
       "npm:core-js@1.2.7/library/web/immediate.js",
       "npm:core-js@1.2.7/library/web/index.js",
       "npm:core-js@1.2.7/library/web/timers.js",
-      "npm:process@0.11.9.js",
-      "npm:process@0.11.9/browser.js",
+      "npm:process@0.11.10.js",
+      "npm:process@0.11.10/browser.js",
       "settings.js",
       "shared/au-code.js",
       "shared/collapse-panel.html!github:systemjs/plugin-text@0.0.4.js",
