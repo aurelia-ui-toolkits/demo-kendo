@@ -582,7 +582,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-c545b1aeea.js": [
+    "app-build-270f754c1c.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
@@ -1251,6 +1251,7 @@ System.config({
       "npm:process@0.11.10/browser.js",
       "npm:showdown@1.7.1.js",
       "npm:showdown@1.7.1/dist/showdown.js",
+      "npm:showdown@1.7.1/dist/showdown.min.js",
       "settings.js",
       "shared/au-code.js",
       "shared/collapse-panel.html!github:systemjs/plugin-text@0.0.4.js",
