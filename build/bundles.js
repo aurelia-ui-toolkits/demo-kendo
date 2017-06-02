@@ -34,6 +34,7 @@ var pluginsBundle = [
   "aurelia-after-attached-plugin",
   "aurelia-after-attached-plugin/**/*",
   "showdown",
+  "showdown/dist/showdown.min.js",
   "prism",
   "jquery",
   "css",
