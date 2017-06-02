@@ -17,7 +17,7 @@ System.config({
     "samplesJSON/*": "https://aurelia-ui-toolkits.github.io/aurelia-kendoui-samples/*"
   },
   meta: {
-    "showdown/dist/showdown.js": {
+    "showdown/dist/showdown.min.js": {
       "format": "global"
     }
   },
@@ -47,7 +47,7 @@ System.config({
     "jquery": "@empty",
     "json": "github:systemjs/plugin-json@0.1.2",
     "prism": "github:PrismJS/prism@1.3.0",
-    "showdown": "github:showdownjs/showdown@1.7.1",
+    "showdown": "npm:showdown@1.7.1",
     "showdown-prettify": "npm:showdown-prettify@1.3.0",
     "text": "github:systemjs/plugin-text@0.0.4",
     "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0": {
@@ -582,7 +582,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-def2f46e28.js": [
+    "app-build-c545b1aeea.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
@@ -597,8 +597,6 @@ System.config({
       "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0/index.js",
       "github:jspm/nodelibs-process@0.1.2.js",
       "github:jspm/nodelibs-process@0.1.2/index.js",
-      "github:showdownjs/showdown@1.7.1.js",
-      "github:showdownjs/showdown@1.7.1/dist/showdown.js",
       "github:systemjs/plugin-css@0.1.20.js",
       "github:systemjs/plugin-css@0.1.20/css.js",
       "github:systemjs/plugin-json@0.1.2.js",
@@ -1251,6 +1249,8 @@ System.config({
       "npm:core-js@1.2.7/library/web/timers.js",
       "npm:process@0.11.10.js",
       "npm:process@0.11.10/browser.js",
+      "npm:showdown@1.7.1.js",
+      "npm:showdown@1.7.1/dist/showdown.js",
       "settings.js",
       "shared/au-code.js",
       "shared/collapse-panel.html!github:systemjs/plugin-text@0.0.4.js",
