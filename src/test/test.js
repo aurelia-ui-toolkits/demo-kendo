@@ -1,16 +1,24 @@
 export class Test {
-  data = new kendo.data.DataSource({
-        data : [
-      { text: 'Cotton', value: '1', desc:'Cotton /Looong desc' },
-      { text: 'Polyester', value: '2', desc:'Poly /Looong desc' },
-      { text: 'Cotton/Polyester', value: '3', desc:'Both /Looong desc' },
-      { text: 'Rib Knit', value: '4', desc:'Rib /Looong desc' }
-      ]
-    });
+  toolbar = {
+    position: 'right',
+    tools: ['moveUp', 'moveDown', 'transferTo', 'transferFrom', 'transferAllTo', 'transferAllFrom', 'remove']
+  };
 
-    fabric=3;
+  datasource = {
+    transport: {
+      read: {
+        dataType: 'jsonp',
+        url: 'https://demos.telerik.com/kendo-ui/service/Customers'
+      }
+    }
+  };
 
-  onReady(w){
-    // w.setOptions({autoWidth:true});
+  draggable = {
+    placeholder: function(draggedItem) {
+      return draggedItem
+        .clone()
+        .addClass('custom-placeholder')
+        .removeClass('k-ghost');
+    }
   }
 }
