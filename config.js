@@ -585,7 +585,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-0c139c579d.js": [
+    "app-build-f4293bf527.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",

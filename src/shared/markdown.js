@@ -1,5 +1,5 @@
 import {bindable, noView, inject, customElement} from 'aurelia-framework';
-import 'showdown/dist/showdown.min';
+import 'showdown';
 import 'google/code-prettify/run_prettify';
 import 'showdown-prettify';
 import {Loader}  from 'aurelia-loader';
