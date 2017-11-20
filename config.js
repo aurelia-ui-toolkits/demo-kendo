@@ -16,13 +16,11 @@ System.config({
     "kendo-sdk/*": "kendo-sdk/*",
     "samplesJSON/*": "https://aurelia-ui-toolkits.github.io/aurelia-kendoui-samples/*"
   },
-
   meta: {
     "showdown/dist/showdown.min.js": {
       "format": "global"
     }
   },
-
   map: {
     "aurelia-after-attached-plugin": "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0",
     "aurelia-binding": "npm:aurelia-binding@1.2.2",

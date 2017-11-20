@@ -8,6 +8,7 @@ export class Index {
 
     samples.categories.forEach(category => {
       this.normalizeCategory(category);
+
       let keys = Object.keys(category.samples);
       keys.forEach(key => {
         let sample = category.samples[key];
