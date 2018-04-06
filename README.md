@@ -14,4 +14,5 @@
 3. update the plugin: `jspm install aurelia-kendoui-bridge`
 4. run `gulp watch` and verify that everything runs correctly, and that there are no errors in the console
 5. `gulp deploy`
-6. **push changes made by `gulp deploy` to the github repo**
+6. open the [site](http://aurelia-ui-toolkits.github.io/demo-kendo/). If you get errors in the console, it has happened that they disappear after about a minute
+7. **push changes made by `gulp deploy` to the github repo**
